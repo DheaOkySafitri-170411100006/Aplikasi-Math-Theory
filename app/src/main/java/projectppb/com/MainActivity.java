@@ -28,10 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
         //inisialisasi
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
-
         //se home selected
         bottomNavigationView.setSelectedItemId(R.id.home);
-
         // perform ItemSelectedListener
         bottomNavigationView. setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -73,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void getData(){
 
-        logomateri.add("https://github.com/DheaOkySafitri-170411100006/Tugas-Praktikum-PAW-006/blob/master/algebra.JPG?raw=true");
+        logomateri.add("https://github.com/DheaOkySafitri-170411100006/Aplikasi-Math-Theory/blob/master/image/algebra.JPG?raw=true");
         judulmateri.add("Algebra");
         topik.add("7 topics");
 
@@ -89,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         judulmateri.add("Calculus and Analysis");
         topik.add("18 topics");
 
-        logomateri.add("https://github.com/DheaOkySafitri-170411100006/Aplikasi-Math-Theory/blob/master/image/applied.JPG?raw=true");
+        logomateri.add("https://github.com/DheaOkySafitri-170411100006/Aplikasi-Math-Theory/blob/master/image/aplied.JPG?raw=true");
         judulmateri.add("Applied Mathematics");
         topik.add("2 topics");
 
@@ -108,8 +106,6 @@ public class MainActivity extends AppCompatActivity {
         logomateri.add("https://github.com/DheaOkySafitri-170411100006/Aplikasi-Math-Theory/blob/master/image/number.JPG?raw=true");
         judulmateri.add("Number Theory");
         topik.add("8 topics");
-
-
         prosesRecyclerViewAdapter();
 
     }
