@@ -26,7 +26,10 @@
         android:layout_height="150dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        android:text="penjelasan panjangggg"
+        android:textSize="16dp"
+        android:text="It is the part of mathematics that uses letters and other symbols to represent number and quantities in formulas and equations. This block is about equations, polynomials, vectors, matrices and more."
+        android:background="@drawable/shape"
+        android:padding="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
