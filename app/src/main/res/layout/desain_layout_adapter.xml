@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="55dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageViewlogomateri"
@@ -25,20 +25,30 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:text="Judul Materi"
+        android:textColor="#000"
+        android:textSize="15dp"
         app:layout_constraintStart_toEndOf="@+id/imageViewlogomateri"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textViewtopik"
-        android:layout_width="60dp"
+        android:layout_width="70dp"
         android:layout_height="20dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:background="#10C9DC"
+        android:layout_marginRight="9dp"
+        android:background="@drawable/shape_topic"
         android:text="Topik"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textViewjudulmateri"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bbb"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
