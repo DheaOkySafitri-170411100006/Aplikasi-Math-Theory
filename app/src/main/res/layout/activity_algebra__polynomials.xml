@@ -8,10 +8,16 @@
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:id="@+id/textViewpenjelasan"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shape"
+        android:text="Enter the world of polynomials, starting with monomials, and learn to apply rules as the indispensable Ruffini rule, which will take you to the remainder and factor theorems. Finally, you will get to algebraic fractions and how to use polynomials."/>
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="600dp"></ListView>
+        android:layout_height="510dp"></ListView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

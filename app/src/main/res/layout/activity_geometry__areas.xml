@@ -8,10 +8,16 @@
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:id="@+id/textViewpenjelasan"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape"
+        android:text="Learn how to calculate areas and perimeters of various plane shapes: the triangle, quadrilaterals, regular polygons and the circle"/>
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="600dp"></ListView>
+        android:layout_height="520dp"></ListView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

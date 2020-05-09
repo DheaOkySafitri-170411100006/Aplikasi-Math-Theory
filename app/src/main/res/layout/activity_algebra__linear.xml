@@ -8,10 +8,16 @@
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:id="@+id/textViewpenjelasan"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape"
+        android:text="Learn how to write problems with constraints as two-variable inequalities and how to get the area of possible solutions. All this will be usel to you to find unknown values, and not just any, but the optimal."/>
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="600dp"></ListView>
+        android:layout_height="520dp"></ListView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

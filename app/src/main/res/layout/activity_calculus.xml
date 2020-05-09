@@ -8,10 +8,17 @@
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:id="@+id/textViewpenjelasan"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape"
+        android:text="It is one of the main branches of mathematics. First you study real numbers, functions and limits from which you than can develop the study of other concepts such as continuity, derivation or integration." />
+
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="600dp"></ListView>
+        android:layout_height="520dp"></ListView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

@@ -1,36 +1,87 @@
 package projectppb.com;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import java.util.ArrayList;
-
 public class Geometry extends AppCompatActivity {
+    BottomNavigationView bottomNavigationView;
+    ListView listView;
+    TextView textViewpenjelasan;
+    String mTittle[]={"Angles","Areas of plane figures","Areas and volumes","Circumference","Affine classification","Conics","Analytic geometry","Geometry in space","Movements in the plane"};
+    String mDescription []={"6 topics","10 topics","16 topics","5 topics","2 topics","4 topics","2 topics","7 topics","5 topics"};
 
-    private ArrayList<String> judulmateri2 = new ArrayList<>();
-    private ArrayList<String> topik2 = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
+        setContentView(R.layout.activity_geometry);
 
-        getData();
+        listView =findViewById(R.id.listView);
 
+        Geometry.MyAdapter adapter = new MyAdapter(this, mTittle, mDescription);
+        listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if (position==0){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Angles.class));
+                }
+                if (position==1){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Areas.class));
+                }
+                if (position==2){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Volumes.class));
+                }
+                if (position==3){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Circum.class));
+                }
+                if (position==4){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Affine.class));
+                }
+                if (position==5){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Conics.class));
+                }
+                if (position==6){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Analytic.class));
+                }
+                if (position==7){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Space.class));
+                }
+                if (position==8){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Movements.class));
+                }
+            }
+        });
         //inisialisasi
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
-
         //se home selected
         bottomNavigationView.setSelectedItemId(R.id.home);
-
         // perform ItemSelectedListener
         bottomNavigationView. setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -59,38 +110,30 @@ public class Geometry extends AppCompatActivity {
             }
         });
     }
-    private void prosesRecyclerViewAdapterDetail(){
-        RecyclerView recyclerView = findViewById(R.id.recyclerView);
-        RecyclerViewAdapterDetail adapter = new RecyclerViewAdapterDetail(judulmateri2, topik2,this);
+    class MyAdapter extends ArrayAdapter<String> {
+        Context context;
+        String rTitle[];
+        String rDescription[];
 
-        recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        MyAdapter(Context c, String title[], String description[]) {
+            super(c, R.layout.rowsubmateri, R.id.textViewjudulsubmateri, title);
+            this.context = c;
+            this.rTitle = title;
+            this.rDescription = description;
+        }
+        @NonNull
+        @Override
+        public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+            LayoutInflater layoutInflater = (LayoutInflater)getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View row = layoutInflater.inflate(R.layout.rowsubmateri,parent, false);
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
-    }
-    private void getData(){
-        judulmateri2.add("Angles");
-        topik2.add("3 topics");
+            TextView myTitle = row.findViewById(R.id.textViewjudulsubmateri);
+            TextView myDescriptionn = row.findViewById(R.id.textViewtopiksubmateri);
 
-        judulmateri2.add("Determinants");
-        topik2.add("3 topics");
+            myTitle.setText(rTitle[position]);
+            myDescriptionn.setText(rDescription[position]);
 
-        judulmateri2.add("Equations");
-        topik2.add("4 topics");
-
-        judulmateri2.add("Fractions");
-        topik2.add("7 topics");
-
-        judulmateri2.add("Polynomials");
-        topik2.add("8 topics");
-
-        judulmateri2.add("Linear Programing");
-        topik2.add("3 topics");
-
-        judulmateri2.add("Vectors");
-        topik2.add("9 topics");
-
-        prosesRecyclerViewAdapterDetail();
+            return row;
+        }
     }
 }
-

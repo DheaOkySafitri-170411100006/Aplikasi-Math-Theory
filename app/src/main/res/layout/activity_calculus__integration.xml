@@ -8,10 +8,16 @@
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:id="@+id/textViewpenjelasan"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@drawable/shape"
+        android:text="Enter the world of integration with the indefinite and definite integral, and learn the methods to solve them, such as by parts or by substitution of the variable. The levelalso increases with the integrals of two variables, introducing integrals on curves and surfaces and the theorems of Green, Gauss and Stokes. And let's not forget the two basic pplications of integrals, the calculation of areas and volumes" />
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="600dp"></ListView>
+        android:layout_height="475dp"></ListView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

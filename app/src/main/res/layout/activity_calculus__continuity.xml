@@ -8,10 +8,16 @@
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:id="@+id/textViewpenjelasan"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/shape"
+        android:text="Learn the concept of continuity of a function and the different types of discontinuities that can be found. Also discover results on continous functions as the Weierstrass theorem, Bolzano's theorem or Darboux property ( also known as the Intermediate Value Theorem"/>
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="600dp"></ListView>
+        android:layout_height="500dp"></ListView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

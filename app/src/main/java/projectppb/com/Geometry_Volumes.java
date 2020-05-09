@@ -13,58 +13,38 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity {
+public class Geometry_Volumes extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
-    String mTittle[]={"Algebra","Geometry","Recretaional Mathematics","Calculus and Analysis","Applied Mathematics","Probability and Statistics","Foundations and Statistics","Discrete Mathematics","Number Theory"};
-    String mDescription []={"7 topics","13 topics","2 topics","18 topics","2 topics","3 topics","1 topics","2 topics","8 topics"};
-    int images[]={R.drawable.algebra,R.drawable.geometri,R.drawable.rectiational,R.drawable.calculus,R.drawable.applied,R.drawable.probality,R.drawable.foundation,R.drawable.discrete,R.drawable.number};
+    TextView textViewpenjelasan;
+    String mTittle[]={"Tetrahedron","Regular octahedron","Ticosahedron","Regular dodecahedron","The Cube"};
+    String mDescription []={"1 topics","1 topics","1 topics","1 topics","1 topics"};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_geometry__volumes);
 
         listView =findViewById(R.id.listView);
 
-        MyAdapter adapter = new MyAdapter(this, mTittle, mDescription, images);
+        Geometry_Volumes.MyAdapter adapter = new MyAdapter(this, mTittle, mDescription);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    startActivity(new Intent(getApplicationContext()
-                            ,Algebra.class));
-                }
-                if (position==1){
-                    startActivity(new Intent(getApplicationContext()
-                            ,Geometry.class));
-                }
-                if (position==2){
-                    startActivity(new Intent(getApplicationContext()
-                            ,Recreational.class));
-                }
-                if (position==3){
-                    startActivity(new Intent(getApplicationContext()
-                            ,Calculus.class));
-                }
-                if (position==4){
-                    startActivity(new Intent(getApplicationContext()
-                            ,Applied.class));
+                    Toast.makeText(Geometry_Volumes.this, "judul1", Toast.LENGTH_LONG).show();
                 }
             }
         });
-
-
-
         //inisialisasi
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         //se home selected
@@ -97,31 +77,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    class MyAdapter extends ArrayAdapter<String>{
+    class MyAdapter extends ArrayAdapter<String> {
         Context context;
         String rTitle[];
         String rDescription[];
-        int rImgs[];
 
-        MyAdapter(Context c, String title[],String description[], int imgs[]){
-            super(c, R.layout.row, R.id.textViewjudulmateri, title);
-            this.context= c;
-            this.rTitle= title;
-            this.rDescription= description;
-            this.rImgs = imgs;
-
+        MyAdapter(Context c, String title[], String description[]) {
+            super(c, R.layout.rowsubmateri, R.id.textViewjudulsubmateri, title);
+            this.context = c;
+            this.rTitle = title;
+            this.rDescription = description;
         }
-
         @NonNull
         @Override
         public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
             LayoutInflater layoutInflater = (LayoutInflater)getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View row = layoutInflater.inflate(R.layout.row,parent, false);
-            ImageView images = row.findViewById(R.id.imageViewlogomateri);
-            TextView myTitle = row.findViewById(R.id.textViewjudulmateri);
-            TextView myDescriptionn = row.findViewById(R.id.textViewtopik);
+            View row = layoutInflater.inflate(R.layout.rowsubmateri,parent, false);
 
-            images.setImageResource(rImgs[position]);
+            TextView myTitle = row.findViewById(R.id.textViewjudulsubmateri);
+            TextView myDescriptionn = row.findViewById(R.id.textViewtopiksubmateri);
+
             myTitle.setText(rTitle[position]);
             myDescriptionn.setText(rDescription[position]);
 
@@ -129,3 +104,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+
