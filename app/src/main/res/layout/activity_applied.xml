@@ -11,8 +11,12 @@
     <TextView
         android:id="@+id/textViewpenjelasan"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="125dp"
         android:background="@drawable/shape"
+        android:padding="12dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:text="It studies methods and mathematical tools that can be useful in other areas, such as engineering or economics. You will learn about interpolation, a necessary concept for computing, and financial mathematics with some basic economic concepts" />
 
     <ListView

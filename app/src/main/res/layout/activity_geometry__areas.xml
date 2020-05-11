@@ -11,8 +11,12 @@
     <TextView
         android:id="@+id/textViewpenjelasan"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="125dp"
         android:background="@drawable/shape"
+        android:padding="12dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:text="Learn how to calculate areas and perimeters of various plane shapes: the triangle, quadrilaterals, regular polygons and the circle"/>
     <ListView
         android:id="@+id/listView"

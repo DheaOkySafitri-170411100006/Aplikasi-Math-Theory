@@ -11,8 +11,12 @@
     <TextView
         android:id="@+id/textViewpenjelasan"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="125dp"
         android:background="@drawable/shape"
+        android:padding="12dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:text="Learn how to solve equations that involve logarithms. you will handle logarithmic equations of the first and second degree and system with two equations and two unknowns"/>
 
     <ListView

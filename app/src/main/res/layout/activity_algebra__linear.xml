@@ -11,8 +11,12 @@
     <TextView
         android:id="@+id/textViewpenjelasan"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="125dp"
         android:background="@drawable/shape"
+        android:padding="12dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:text="Learn how to write problems with constraints as two-variable inequalities and how to get the area of possible solutions. All this will be usel to you to find unknown values, and not just any, but the optimal."/>
     <ListView
         android:id="@+id/listView"

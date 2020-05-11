@@ -11,8 +11,12 @@
     <TextView
         android:id="@+id/textViewpenjelasan"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="125dp"
         android:background="@drawable/shape"
+        android:padding="12dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:text="It is the part of mathematics that uses letters and other symbols to represent numbers and quantities in formulas and euations. This block is about equations, polynomials,vectors, matrices and more" />
 
     <ListView

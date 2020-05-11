@@ -60,6 +60,22 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(getApplicationContext()
                             ,Applied.class));
                 }
+                if (position==5){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability.class));
+                }
+                if (position==6){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Foundations.class));
+                }
+                if (position==7){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete.class));
+                }
+                if (position==8){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Number.class));
+                }
             }
         });
 

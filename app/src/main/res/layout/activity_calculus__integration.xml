@@ -13,6 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="125dp"
         android:background="@drawable/shape"
+        android:padding="12dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:text="Enter the world of integration with the indefinite and definite integral, and learn the methods to solve them, such as by parts or by substitution of the variable. The levelalso increases with the integrals of two variables, introducing integrals on curves and surfaces and the theorems of Green, Gauss and Stokes. And let's not forget the two basic pplications of integrals, the calculation of areas and volumes" />
     <ListView
         android:id="@+id/listView"
