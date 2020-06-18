@@ -24,7 +24,7 @@ public class Number_Natural extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"The set of the natural number", "Sum of natural number", "Subtraction of natural"};
-    String mDescription []={"Difficulty", "Difficulty", "Difficulty"};
+    String mDescription []={"1 topics", "1 topics", "1 topics"};
 
 
     @Override

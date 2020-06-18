@@ -24,7 +24,7 @@ public class discrete_combinatorial_number extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"The factorial of a number", "Simplification in expressions", "combinatorial number", "Identity of symmetry", "Stifel formula", "Newton's binomial", "Equations with factorial"};
-    String mDescription []={"Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty"};
+    String mDescription []={"1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics"};
 
 
     @Override

@@ -24,7 +24,7 @@ public class Number_Decimal extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Definition of decimal", "Rounding and truncating", "Types of decimal", "From decimal number to fractions", "The order of decimal", "Operation wuth decimal"};
-    String mDescription []={"Difficulty","Difficulty","Difficulty","Difficulty", "Difficulty", "3 topics"};
+    String mDescription []={"1 topics","1 topics","1 topics","1 topics", "1 topics", "3 topics"};
 
 
     @Override

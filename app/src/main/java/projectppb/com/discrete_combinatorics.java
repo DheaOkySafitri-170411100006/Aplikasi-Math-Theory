@@ -24,7 +24,7 @@ public class discrete_combinatorics extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Factorial and combinatorial", "The principle of addition", "Variations", "Permutations", "Combinations"};
-    String mDescription []={"Difficulty", "Difficulty", "2 topics", "2 topics", "2 topics"};
+    String mDescription []={"1 topics", "1 topics", "2 topics", "2 topics", "2 topics"};
 
 
     @Override

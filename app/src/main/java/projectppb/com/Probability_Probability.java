@@ -24,7 +24,7 @@ public class Probability_Probability extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Definition of probability", "Operations among events", "Laplace's rule", "Compatible and incompatible events", "Axiomatic", "Conditional probability", "Dependent and independent events", "Probability of union", "Contingency table", "Tree diagrams", "Law of total probability", "Bayes's theorem"};
-    String mDescription []={"Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty"};
+    String mDescription []={"1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics"};
 
 
     @Override

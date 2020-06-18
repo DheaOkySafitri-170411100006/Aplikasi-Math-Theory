@@ -24,7 +24,7 @@ public class Probability_Statistics extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Statistic basic concept", "Statistic variables", "Absolute, relative", "Graph representation", "Arithmatical mean", "Geometri mean", "Mathematical exectation", "The mode", "The median", "Range", "Absolute deviation and standart deviation", "Variance and Standart deviation"};
-    String mDescription []={"Difficulty", "Difficulty", "Difficulty", "3 topics", "Difficulty", "Difficulty", "Difficulty","Difficulty", "Difficulty","Difficulty", "Difficulty", "Difficulty"};
+    String mDescription []={"1 topics", "1 topics", "1 topics", "3 topics", "1 topics", "1 topics", "1 topics","1 topics", "1 topics","1 topics", "1 topics", "1 topics"};
 
 
     @Override

@@ -24,7 +24,7 @@ public class Number_divisibility extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Divisors and multiples", "Prime and composite", "Divisibility criteria", "Factorization", "Greatest common divisor"};
-    String mDescription []={"Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty"};
+    String mDescription []={"1 topics", "1 topics", "1 topics", "1 topics", "1 topics"};
 
 
     @Override

@@ -24,7 +24,7 @@ public class Probability_Distributions extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Random variables", "The probability", "Independen event", "The distribution function", "Average, variance and standart deviation", "The Binomial (or Bernoulli) distribution", "The normal (or Gaussian) ditribution"};
-    String mDescription []={"Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty"};
+    String mDescription []={"1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics"};
 
 
     @Override

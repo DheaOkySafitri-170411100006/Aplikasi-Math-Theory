@@ -24,7 +24,7 @@ public class Number_Proportional extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Direct and invers proportion", "Percentages", "Compound rule of three", "Proportional distributions"};
-    String mDescription []={"Difficulty", "Difficulty", "Difficulty", "Difficulty"};
+    String mDescription []={"1 topics", "1 topics", "1 topics", "1 topics"};
 
 
     @Override

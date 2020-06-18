@@ -24,7 +24,7 @@ public class Foundations_theory extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Definition and notation of set", "Equality between sets", "Union and intersection of sets", "Set differences", "Complement of a set", "Property of sets", "Set product", "Set cardinality", "Set of number", "Introduction to intervals"};
-    String mDescription []={"Difficulty", "Difficulty", "Difficulty","Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty", "Difficulty"};
+    String mDescription []={"1 topics", "1 topics", "1 topics","1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics", "1 topics"};
 
 
     @Override

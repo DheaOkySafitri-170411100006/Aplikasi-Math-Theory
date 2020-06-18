@@ -24,7 +24,7 @@ public class Number_diophantine extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"The Euclides Algorithm", "Linear diophantine", "Quadratic diophantine"};
-    String mDescription []={"Difficulty", "Difficulty", "Difficulty"};
+    String mDescription []={"1 topics", "1 topics", "1 topics"};
 
 
     @Override

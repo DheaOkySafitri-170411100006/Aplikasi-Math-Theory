@@ -24,7 +24,7 @@ public class Number_Sexagesimal extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"The sexagesimal system", "Complex measurement", "System of numeration"};
-    String mDescription []={"Difficulty","Difficulty", "2 topics"};
+    String mDescription []={"1 topics","1 topics", "2 topics"};
 
 
     @Override

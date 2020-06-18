@@ -24,7 +24,7 @@ public class Number_Integer extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"The set of integers", "Operatins with integers", "Combined operations"};
-    String mDescription []={"Difficulty", "Difficulty", "Difficulty"};
+    String mDescription []={"1 topics", "1 topics", "1 topics"};
 
 
     @Override
