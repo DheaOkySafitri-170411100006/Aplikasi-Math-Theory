@@ -1,9 +1,5 @@
 package projectppb.com;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +11,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -23,8 +22,8 @@ public class Algebra_Matrices extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
     TextView textViewpenjelasan;
-    String mTittle[]={"Matrix operations","Inverse matrix"};
-    String mDescription []={"5 topics","2 topics"};
+    String mTittle[]={"Concept and Types Matrix","Matrix operations","Inverse matrix"};
+    String mDescription []={"1 topics","5 topics","2 topics"};
 
 
     @Override
@@ -41,19 +40,16 @@ public class Algebra_Matrices extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Algebra_Matrices.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Matrices_concept_types.class));
                 }
                 if (position==1){
-                    Toast.makeText(Algebra_Matrices.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Matrices_Matrix_Operations.class));
                 }
                 if (position==2){
-                    Toast.makeText(Algebra_Matrices.this, "judul3", Toast.LENGTH_LONG).show();
-                }
-                if (position==3){
-                    Toast.makeText(Algebra_Matrices.this, "judul4", Toast.LENGTH_LONG).show();
-                }
-                if (position==4){
-                    Toast.makeText(Algebra_Matrices.this, "judul5", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Matrices_Inverse.class));
                 }
             }
         });
@@ -68,19 +64,19 @@ public class Algebra_Matrices extends AppCompatActivity {
                 switch (menuItem.getItemId()){
                     case R.id.settings:
                         startActivity(new Intent(getApplicationContext()
-                                ,Settings.class));
+                                , Settings.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.home:
                         return true;
                     case R.id.favorites:
                         startActivity(new Intent(getApplicationContext()
-                                ,Favorites.class));
+                                , Favorites.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.viewed:
                         startActivity(new Intent(getApplicationContext()
-                                ,Viewed.class));
+                                , Viewed.class));
                         overridePendingTransition(0,0);
                         return true;
 

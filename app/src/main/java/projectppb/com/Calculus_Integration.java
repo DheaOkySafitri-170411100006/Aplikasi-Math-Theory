@@ -1,9 +1,5 @@
 package projectppb.com;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +11,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -23,8 +22,8 @@ public class Calculus_Integration extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
     TextView textViewpenjelasan;
-    String mTittle[]={"Direct integrals","Definite integrals","Integration 2 variables","Areas Calculation","Volume Calculation"};
-    String mDescription []={"3 topics","3 topics","2 topics","5 topics","2 topics"};
+    String mTittle[]={"Indefinite integral","Direct integrals","Almost direct","Integration by parts","Integrals fractions","Definite integrals","Change of variable","Integration 2 variables","Integral regions","Changes variables","Integral curve","Integral surface","Theorem Green","Areas Calculation","Volume Calculation"};
+    String mDescription []={"1 topics","3 topics","1 topics","1 topics","1 topics","3 topics","1 topics","2 topics","1 topics","1 topics","1 topics","1 topics","1 topics","5 topics","2 topics"};
 
 
     @Override
@@ -41,7 +40,64 @@ public class Calculus_Integration extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Calculus_Integration.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Integration_Indefinite.class));
+                }
+                if (position==1){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Direct.class));
+                }
+                if (position==2){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Almost.class));
+                }
+                if (position==3){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Integration.class));
+                }
+                if (position==4){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Integrals.class));
+                }
+                if (position==5){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Definite.class));
+                }
+                if (position==6){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Integrals2.class));
+                }
+                if (position==7){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Integration2.class));
+                }
+                if (position==8){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Integrals3.class));
+                }
+                if (position==9){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Changes.class));
+                }
+                if (position==10){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Integral.class));
+                }
+                if (position==11){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Integral2.class));
+                }
+                if (position==12){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Theorem.class));
+                }
+                if (position==13){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Areas.class));
+                }
+                if (position==14){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Integration_Volune.class));
                 }
             }
         });
@@ -56,19 +112,19 @@ public class Calculus_Integration extends AppCompatActivity {
                 switch (menuItem.getItemId()){
                     case R.id.settings:
                         startActivity(new Intent(getApplicationContext()
-                                ,Settings.class));
+                                , Settings.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.home:
                         return true;
                     case R.id.favorites:
                         startActivity(new Intent(getApplicationContext()
-                                ,Favorites.class));
+                                , Favorites.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.viewed:
                         startActivity(new Intent(getApplicationContext()
-                                ,Viewed.class));
+                                , Viewed.class));
                         overridePendingTransition(0,0);
                         return true;
 

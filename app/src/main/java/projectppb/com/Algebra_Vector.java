@@ -1,9 +1,5 @@
 package projectppb.com;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +11,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -23,8 +22,8 @@ public class Algebra_Vector extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
     TextView textViewpenjelasan;
-    String mTittle[]={"Operations with vectors","AScalar Product"};
-    String mDescription []={"2 topics","3 topics"};
+    String mTittle[]={"Fundamental","Operations with vectors","Scalar Product","Vector Product","Linear vectors","Linearly dependent","Basis and coordinates","Orthogonal","Systems reference"};
+    String mDescription []={"1 topics","2 topics","3 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics",};
 
 
     @Override
@@ -41,10 +40,40 @@ public class Algebra_Vector extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Algebra_Vector.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Vectors_Fundamental.class));
                 }
                 if (position==1){
-                    Toast.makeText(Algebra_Vector.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Vectors_Operations.class));
+                }
+                if (position==2){
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Vectors_Scalar.class));
+                }
+                if (position==3){
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Vectors_Product.class));
+                }
+                if (position==4){
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Vectors_Linear.class));
+                }
+                if (position==5){
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Vectors_Linearly.class));
+                }
+                if (position==6){
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Vectors_Basis.class));
+                }
+                if (position==7){
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Vectors_Orthogonal.class));
+                }
+                if (position==7){
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Vectors_Systems.class));
                 }
             }
         });
@@ -59,19 +88,19 @@ public class Algebra_Vector extends AppCompatActivity {
                 switch (menuItem.getItemId()){
                     case R.id.settings:
                         startActivity(new Intent(getApplicationContext()
-                                ,Settings.class));
+                                , Settings.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.home:
                         return true;
                     case R.id.favorites:
                         startActivity(new Intent(getApplicationContext()
-                                ,Favorites.class));
+                                , Favorites.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.viewed:
                         startActivity(new Intent(getApplicationContext()
-                                ,Viewed.class));
+                                , Viewed.class));
                         overridePendingTransition(0,0);
                         return true;
 

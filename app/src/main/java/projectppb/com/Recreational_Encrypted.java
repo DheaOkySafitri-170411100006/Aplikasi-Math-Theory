@@ -1,9 +1,5 @@
 package projectppb.com;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +11,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -24,7 +23,7 @@ public class Recreational_Encrypted extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Boxes method","Caesar's method"};
-    String mDescription []={"2 topics","4 topics"};
+    String mDescription []={"1 topics","1 topics"};
 
 
     @Override
@@ -41,10 +40,12 @@ public class Recreational_Encrypted extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Recreational_Encrypted.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Recreational_Encrypted_Boxes.class));
                 }
                 if (position==1){
-                    Toast.makeText(Recreational_Encrypted.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Recreational_Encrypted_Caesars.class));
                 }
             }
         });
@@ -59,19 +60,19 @@ public class Recreational_Encrypted extends AppCompatActivity {
                 switch (menuItem.getItemId()){
                     case R.id.settings:
                         startActivity(new Intent(getApplicationContext()
-                                ,Settings.class));
+                                , Settings.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.home:
                         return true;
                     case R.id.favorites:
                         startActivity(new Intent(getApplicationContext()
-                                ,Favorites.class));
+                                , Favorites.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.viewed:
                         startActivity(new Intent(getApplicationContext()
-                                ,Viewed.class));
+                                , Viewed.class));
                         overridePendingTransition(0,0);
                         return true;
 

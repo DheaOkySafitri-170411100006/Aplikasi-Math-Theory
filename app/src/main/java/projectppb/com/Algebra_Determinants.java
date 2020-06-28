@@ -1,9 +1,5 @@
 package projectppb.com;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +11,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -23,8 +22,8 @@ public class Algebra_Determinants extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
     TextView textViewpenjelasan;
-    String mTittle[]={"Calculations of determinants"};
-    String mDescription []={"3 topics"};
+    String mTittle[]={"Notation","Calculations","Properties"};
+    String mDescription []={"1 topics","3 topics","1 topics"};
 
 
     @Override
@@ -41,20 +40,18 @@ public class Algebra_Determinants extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Algebra_Determinants.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Determinants_Notation.class));
                 }
                 if (position==1){
-                    Toast.makeText(Algebra_Determinants.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Determinants_Calculation.class));
                 }
                 if (position==2){
-                    Toast.makeText(Algebra_Determinants.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Algebra_Determinants_Properties.class));
                 }
-                if (position==3){
-                    Toast.makeText(Algebra_Determinants.this, "judul4", Toast.LENGTH_LONG).show();
-                }
-                if (position==4){
-                    Toast.makeText(Algebra_Determinants.this, "judul5", Toast.LENGTH_LONG).show();
-                }
+
             }
         });
         //inisialisasi
@@ -68,19 +65,19 @@ public class Algebra_Determinants extends AppCompatActivity {
                 switch (menuItem.getItemId()){
                     case R.id.settings:
                         startActivity(new Intent(getApplicationContext()
-                                ,Settings.class));
+                                , Settings.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.home:
                         return true;
                     case R.id.favorites:
                         startActivity(new Intent(getApplicationContext()
-                                ,Favorites.class));
+                                , Favorites.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.viewed:
                         startActivity(new Intent(getApplicationContext()
-                                ,Viewed.class));
+                                , Viewed.class));
                         overridePendingTransition(0,0);
                         return true;
 

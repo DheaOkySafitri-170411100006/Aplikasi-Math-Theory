@@ -41,7 +41,12 @@ public class Applied_Finance extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Applied_Finance.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Applied_Finance_Simple.class));
+                }
+                if (position==1){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Applied_Finance_Compound.class));
                 }
             }
         });

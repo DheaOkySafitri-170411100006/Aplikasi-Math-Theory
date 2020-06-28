@@ -18,11 +18,10 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:text="It si the part of mathematics that display and studies plane and solid shapes. You will learn to calculate perimeters, areas and volumes of the most important shapes." />
-
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="520dp"></ListView>
+        android:layout_height="460dp"></ListView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -35,3 +34,6 @@
         app:menu="@menu/menu_navigation" />
 
 </LinearLayout>
+
+
+

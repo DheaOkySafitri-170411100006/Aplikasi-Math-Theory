@@ -23,8 +23,8 @@ public class Applied_Interpolation extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
     TextView textViewpenjelasan;
-    String mTittle[]={"Polynomial Interpolation"};
-    String mDescription []={"3 topics"};
+    String mTittle[]={"Polynomial Interpolation","inverse interpolation","Interpolation hermite","Taylor's polynomial"};
+    String mDescription []={"1 topics","1 topics","1 topics","1 topics"};
 
 
     @Override
@@ -41,7 +41,20 @@ public class Applied_Interpolation extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Applied_Interpolation.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Applied_Interpolation_Polynomial.class));
+                }
+                if (position==1){
+                    startActivity(new Intent(getApplicationContext()
+                            , Applied_Interpolation_Inverse.class));
+                }
+                if (position==2){
+                    startActivity(new Intent(getApplicationContext()
+                            , Applied_Interpolation_Interpolation.class));
+                }
+                if (position==3){
+                    startActivity(new Intent(getApplicationContext()
+                            , Applied_Interpolation_Taylors.class));
                 }
             }
         });

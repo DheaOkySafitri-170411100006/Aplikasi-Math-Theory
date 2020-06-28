@@ -1,9 +1,5 @@
 package projectppb.com;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,14 +13,18 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Calculus_Functions extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
     TextView textViewpenjelasan;
-    String mTittle[]={"Characteristics of the functions","Operations with functions"};
-    String mDescription []={"6 topics","2 topics"};
+    String mTittle[]={"Cartesian","Concept n equation","Graphic representation","Constant function","Concept n expression","Computation images","Domain function","Image function","Graph function","Graphic determination","Characteristics functions","Operations functions","Polynomial functions","Rational functions","Irrational functions","Exponential functions","Logarithmic functions","Functions defined","Absolute function"};
+    String mDescription []={"1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","6 topics","2 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics"};
 
 
     @Override
@@ -41,7 +41,80 @@ public class Calculus_Functions extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Calculus_Functions.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Cartesian.class));
+                }
+                if (position==1){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Concept.class));
+                }
+                if (position==2){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_FUnctions.class));
+                }
+                if (position==3){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Constant.class));
+                }
+                if (position==4){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Concept2.class));
+                }
+                if (position==5){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Computation.class));
+                }
+                if (position==6){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Domain.class));
+                }
+                if (position==7){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Image.class));
+                }
+                if (position==8){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Graph.class));
+                }
+                if (position==9){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Graphic.class));
+                }
+                if (position==10){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Functions_Characteristics.class));
+                }
+                if (position==11){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Operations.class));
+                }
+                if (position==12){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Polynomial.class));
+                }
+                if (position==13){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Rational.class));
+                }
+                if (position==14){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Irrational.class));
+                }
+                if (position==15){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Exponential.class));
+                }
+                if (position==16){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Logarithmic.class));
+                }
+                if (position==17){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Calculus_Functions_Functions2.class));
+                }
+                if (position==18){
+                    startActivity(new Intent(getApplicationContext()
+                            , Calculus_Functions_Absolute.class));
                 }
             }
         });
@@ -56,19 +129,19 @@ public class Calculus_Functions extends AppCompatActivity {
                 switch (menuItem.getItemId()){
                     case R.id.settings:
                         startActivity(new Intent(getApplicationContext()
-                                ,Settings.class));
+                                , Settings.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.home:
                         return true;
                     case R.id.favorites:
                         startActivity(new Intent(getApplicationContext()
-                                ,Favorites.class));
+                                , Favorites.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.viewed:
                         startActivity(new Intent(getApplicationContext()
-                                ,Viewed.class));
+                                , Viewed.class));
                         overridePendingTransition(0,0);
                         return true;
 

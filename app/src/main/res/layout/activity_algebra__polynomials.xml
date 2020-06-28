@@ -17,11 +17,12 @@
         android:layout_marginTop="18dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:text="Enter the world of polynomials, starting with monomials, and learn to apply rules as the indispensable Ruffini rule, which will take you to the remainder and factor theorems. Finally, you will get to algebraic fractions and how to use polynomials."/>
+        android:text="It is the part of mathematics that uses letters and other symbols to represent numbers and quantities in formulas and euations. This block is about equations, polynomials,vectors, matrices and more" />
+
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="510dp"></ListView>
+        android:layout_height="460dp"></ListView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

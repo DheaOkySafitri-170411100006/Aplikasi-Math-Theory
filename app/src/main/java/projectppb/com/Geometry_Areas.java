@@ -1,9 +1,5 @@
 package projectppb.com;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +11,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -23,8 +22,8 @@ public class Geometry_Areas extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
     TextView textViewpenjelasan;
-    String mTittle[]={"The square","The rectangle","The rhombus","The rhomboid","The trapezoid"};
-    String mDescription []={"1 topics","1 topics","1 topics","1 topics","1 topics"};
+    String mTittle[]={"The square","The rectangle","The rhombus","The rhomboid","The trapezoid","The triangle","The regular polygon","The circle","The annulus","The lune"};
+    String mDescription []={"1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics"};
 
 
     @Override
@@ -41,7 +40,44 @@ public class Geometry_Areas extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Geometry_Areas.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Geometry_Areas_Square.class));
+                }
+                if (position==1){
+                    startActivity(new Intent(getApplicationContext()
+                            , Geometry_Areas_Rectangle.class));
+                }
+                if (position==2){
+                    startActivity(new Intent(getApplicationContext()
+                            , Geometry_Areas_Rhombus.class));
+                }
+                if (position==3){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Areas_Rhomboid.class));
+                }
+                if (position==4){
+                    startActivity(new Intent(getApplicationContext()
+                            , Geometry_Areas_Trapezoid.class));
+                }
+                if (position==5){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Areas_Triangle.class));
+                }
+                if (position==6){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Areas_Reguler.class));
+                }
+                if (position==7){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Areas_Circle.class));
+                }
+                if (position==8){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Areas_Annulus.class));
+                }
+                if (position==9){
+                    startActivity(new Intent(getApplicationContext()
+                            ,Geometry_Areas_Lune.class));
                 }
             }
         });
@@ -56,19 +92,19 @@ public class Geometry_Areas extends AppCompatActivity {
                 switch (menuItem.getItemId()){
                     case R.id.settings:
                         startActivity(new Intent(getApplicationContext()
-                                ,Settings.class));
+                                , Settings.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.home:
                         return true;
                     case R.id.favorites:
                         startActivity(new Intent(getApplicationContext()
-                                ,Favorites.class));
+                                , Favorites.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.viewed:
                         startActivity(new Intent(getApplicationContext()
-                                ,Viewed.class));
+                                , Viewed.class));
                         overridePendingTransition(0,0);
                         return true;
 
