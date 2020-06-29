@@ -41,16 +41,20 @@ public class Number_Proportional extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Number_Proportional.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Proportionality_Direct.class));
                 }
                 if (position==1){
-                    Toast.makeText(Number_Proportional.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Proportionality_Percentages.class));
                 }
                 if (position==2){
-                    Toast.makeText(Number_Proportional.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Proportionality_Compound.class));
                 }
                 if (position==3){
-                    Toast.makeText(Number_Proportional.this, "judul4", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Proportionality_Proportional.class));
                 }
             }
         });

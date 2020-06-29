@@ -24,7 +24,7 @@ public class Number_Sexagesimal extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"The sexagesimal system", "Complex measurement", "System of numeration"};
-    String mDescription []={"1 topics","1 topics", "2 topics"};
+    String mDescription []={"1 topics","1 topics", "1 topics"};
 
 
     @Override
@@ -41,13 +41,16 @@ public class Number_Sexagesimal extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Number_Sexagesimal.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Sexagesimal_Sexagesimal.class));
                 }
                 if (position==1){
-                    Toast.makeText(Number_Sexagesimal.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Sexagesimal_Complex.class));
                 }
                 if (position==2){
-                    Toast.makeText(Number_Sexagesimal.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Sexagesimal_System.class));
                 }
             }
         });

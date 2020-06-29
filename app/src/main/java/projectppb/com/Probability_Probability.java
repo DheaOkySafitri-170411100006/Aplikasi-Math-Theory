@@ -41,40 +41,52 @@ public class Probability_Probability extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Probability_Probability.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Definition.class));
                 }
                 if (position==1){
-                    Toast.makeText(Probability_Probability.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Operations.class));
                 }
                 if (position==2){
-                    Toast.makeText(Probability_Probability.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Laplaces.class));
                 }
                 if (position==3){
-                    Toast.makeText(Probability_Probability.this, "judul4", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Compatible.class));
                 }
                 if (position==4){
-                    Toast.makeText(Probability_Probability.this, "judul5", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Axiomatic.class));
                 }
                 if (position==5){
-                    Toast.makeText(Probability_Probability.this, "judul6", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Conditional.class));
                 }
                 if (position==6){
-                    Toast.makeText(Probability_Probability.this, "judul7", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Dependent.class));
                 }
                 if (position==7){
-                    Toast.makeText(Probability_Probability.this, "judul8", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Probability.class));
                 }
                 if (position==8){
-                    Toast.makeText(Probability_Probability.this, "judul9", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Contingency.class));
                 }
                 if (position==9){
-                    Toast.makeText(Probability_Probability.this, "judul10", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Tree.class));
                 }
                 if (position==10){
-                    Toast.makeText(Probability_Probability.this, "judul11", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Law.class));
                 }
                 if (position==11){
-                    Toast.makeText(Probability_Probability.this, "judul12", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Probability_Bayes.class));
                 }
             }
         });

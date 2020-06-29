@@ -10,151 +10,1833 @@
         android:label="Math Syllabus"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Applied_Finance_Compound"></activity>
-        <activity android:name=".Applied_Finance_Simple" />
-        <activity android:name=".Applied_Interpolation_Polynomial_Lagrange" />
-        <activity android:name=".Applied_Interpolation_Polynomial_Newtons" />
-        <activity android:name=".Applied_Interpolation_Polynomial_Polynomial" />
-        <activity android:name=".Applied_Interpolation_Polynomial" />
-        <activity android:name=".Applied_Interpolation_Taylors" />
-        <activity android:name=".Applied_Interpolation_Interpolation" />
-        <activity android:name=".Applied_Interpolation_Inverse" />
-        <activity android:name=".Calculus_Sequences_Operations" />
-        <activity android:name=".Calculus_Sequences_Limit" />
-        <activity android:name=".Calculus_Sequences_Bounded" />
-        <activity android:name=".Calculus_Sequences_Monotonous" />
-        <activity android:name=".Calculus_Sequences_Definition" />
-        <activity android:name=".Calculus_Square_Elements" />
-        <activity android:name=".Calculus_Square_Product" />
-        <activity android:name=".Calculus_Square_Definition" />
-        <activity android:name=".Calculus_Progressions_Geometric_Infinite" />
-        <activity android:name=".Calculus_Progressions_Geometric_Sum" />
-        <activity android:name=".Calculus_Progressions_Geometric_Product" />
-        <activity android:name=".Calculus_Progressions_Geometric_General" />
-        <activity android:name=".Calculus_Progressions_Geometric_Geometric" />
-        <activity android:name=".Calculus_Progressions_Arithmetical_Sum" />
-        <activity android:name=".Calculus_Progressions_Arithmetical_General" />
-        <activity android:name=".Calculus_Progressions_Arithmetical_Arithmetical" />
-        <activity android:name=".Calculus_Progressions_Geometric" />
-        <activity android:name=".Calculus_Progressions_Arithmetical" />
-        <activity android:name=".Calculus_Radicals_Factorization" />
-        <activity android:name=".Calculus_Radicals_Rationlization" />
-        <activity android:name=".Calculus_Radicals_Radicals" />
-        <activity android:name=".Calculus_Radicals_Amplification" />
-        <activity android:name=".Calculus_Powers_Radicals" />
-        <activity android:name=".Calculus_Powers_Powers3" />
-        <activity android:name=".Calculus_Powers_Operations" />
-        <activity android:name=".Calculus_Powers_Powers2" />
-        <activity android:name=".Calculus_Powers_Powers" />
-        <activity android:name=".Calculus_Complex_nth" />
-        <activity android:name=".Calculus_Complex_Exponentiation2" />
-        <activity android:name=".Calculus_Complex_Exponentiation" />
-        <activity android:name=".Calculus_Complex_Complex3" />
-        <activity android:name=".Calculus_Complex_Representation2" />
-        <activity android:name=".Calculus_Complex_Operations2" />
-        <activity android:name=".Calculus_Complex_Complex2" />
-        <activity android:name=".Calculus_Complex_Complex" />
-        <activity android:name=".Calculus_Complex_Representation" />
-        <activity android:name=".Calculus_Complex_Operations" />
-        <activity android:name=".Calculus_Complex_Definition" />
-        <activity android:name=".Calculus_Measurements_Saxon" />
-        <activity android:name=".Calculus_Measurements_Traditional" />
-        <activity android:name=".Calculus_Measurements_Complex" />
-        <activity android:name=".Calculus_Measurements_Decimal" />
-        <activity android:name=".Calculus_Logarithms_Logarithms" />
-        <activity android:name=".Calculus_Logarithms_Using" />
-        <activity android:name=".Calculus_Logarithms_Base" />
-        <activity android:name=".Calculus_Logarithms_Properties" />
-        <activity android:name=".Calculus_Sequences" />
-        <activity android:name=".Calculus_Square" />
-        <activity android:name=".Calculus_Progressions" />
-        <activity android:name=".Calculus_Powers" />
-        <activity android:name=".Calculus_Complex" />
-        <activity android:name=".Calculus_Measurements" />
-        <activity android:name=".Calculus_Logarithms" />
-        <activity android:name=".Calculus_Inequations" />
-        <activity android:name=".Calculus_Graphic" />
-        <activity android:name=".Calculus_Functions_Absolute" />
-        <activity android:name=".Calculus_Functions_Functions2" />
-        <activity android:name=".Calculus_Functions_Logarithmic" />
-        <activity android:name=".Calculus_Functions_Exponential" />
-        <activity android:name=".Calculus_Functions_Irrational" />
-        <activity android:name=".Calculus_Functions_Rational" />
-        <activity android:name=".Calculus_Functions_Polynomial" />
-        <activity android:name=".Calculus_Functions_Operations" />
-        <activity android:name=".Calculus_Functions_Characteristics" />
-        <activity android:name=".Calculus_Functions_Graphic" />
-        <activity android:name=".Calculus_Functions_Graph" />
-        <activity android:name=".Calculus_Functions_Image" />
-        <activity android:name=".Calculus_Functions_Domain" />
-        <activity android:name=".Calculus_Functions_Computation" />
-        <activity android:name=".Calculus_Functions_Concept2" />
-        <activity android:name=".Calculus_Functions_Constant" />
-        <activity android:name=".Calculus_Functions_FUnctions" />
-        <activity android:name=".Calculus_Functions_Concept" />
-        <activity android:name=".Calculus_Functions_Cartesian" />
-        <activity android:name=".Calculus_Logarithmic_Systems" />
-        <activity android:name=".Calculus_Logarithmic_Logarithmic2" />
-        <activity android:name=".Calculus_Logarithmic_Logarithmic" />
-        <activity android:name=".Calculus_Exponential_Solving4" />
-        <activity android:name=".Calculus_Exponential_Solving3" />
-        <activity android:name=".Calculus_Exponential_Solving2" />
-        <activity android:name=".Calculus_Exponential_Solving" />
-        <activity android:name=".Calculus_Exponential_Introduction" />
-        <activity android:name=".Number_Sexagesimal" />
-        <activity android:name=".Number_Proportional" />
-        <activity android:name=".Number_The_Real" />
-        <activity android:name=".Number_Natural" />
-        <activity android:name=".Number_Integer" />
-        <activity android:name=".Number_Decimal" />
-        <activity android:name=".Number_diophantine" />
-        <activity android:name=".Number_divisibility" />
-        <activity android:name=".Number" />
-        <activity android:name=".discrete_combinatorics" />
-        <activity android:name=".discrete_combinatorial_number" />
-        <activity android:name=".Discrete" />
-        <activity android:name=".Foundations_theory" />
-        <activity android:name=".Foundations" />
-        <activity android:name=".Recreational_Encrypted" />
-        <activity android:name=".Recreational" />
-        <activity android:name=".Probability_Probability" />
-        <activity android:name=".Probability_Statistics" />
-        <activity android:name=".Probability_Distributions" />
-        <activity android:name=".Probability" />
-        <activity android:name=".Geometry_Volumes" />
-        <activity android:name=".Geometry_Space" />
-        <activity android:name=".Geometry_Movements" />
-        <activity android:name=".Geometry_Conics" />
-        <activity android:name=".Geometry_Circum" />
-        <activity android:name=".Geometry_Areas" />
-        <activity android:name=".Geometry_Angles" />
-        <activity android:name=".Geometry_Analytic" />
-        <activity android:name=".Geometry_Affine" />
-        <activity android:name=".Geometry" />
-        <activity android:name=".Calculus_Vector" />
-        <activity android:name=".Calculus_Logarithmic" />
-        <activity android:name=".Calculus_Limits" />
-        <activity android:name=".Calculus_Integration" />
-        <activity android:name=".Calculus_Functions" />
-        <activity android:name=".Calculus_Exponential" />
-        <activity android:name=".Calculus_Differential" />
-        <activity android:name=".Calculus_Derivatives" />
-        <activity android:name=".Calculus_Continuity" />
-        <activity android:name=".Calculus" />
-        <activity android:name=".Applied_Interpolation" />
-        <activity android:name=".Applied_Finance" />
-        <activity android:name=".Applied" />
-        <activity android:name=".Algebra_Vector" />
-        <activity android:name=".Algebra_Polynomials" />
-        <activity android:name=".Algebra_Matrices" />
-        <activity android:name=".Algebra_Linear" />
-        <activity android:name=".Algebra_Fractions" />
-        <activity android:name=".Algebra_equations" />
-        <activity android:name=".Algebra_Determinants" />
-        <activity android:name=".Algebra" />
-        <activity android:name=".Viewed" />
-        <activity android:name=".Favorites" />
-        <activity android:name=".Settings" />
+        <activity android:name=".Number_Sexagesimal_System"
+            android:label="Sexagesimal System"
+            android:parentActivityName=".Number_Sexagesimal">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Sexagesimal" />
+        </activity>
+        <activity android:name=".Number_Sexagesimal_Complex"
+            android:label="Sexagesimal Complex"
+            android:parentActivityName=".Number_Sexagesimal">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Sexagesimal" />
+        </activity>
+        <activity android:name=".Number_Sexagesimal_Sexagesimal"
+            android:label="Sexagesimal"
+            android:parentActivityName=".Number_Sexagesimal">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Sexagesimal" />
+        </activity>
+        <activity android:name=".Number_Proportionality_Proportional"
+            android:label="Proportional"
+            android:parentActivityName=".Number_Proportional">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Proportional" />
+        </activity>
+        <activity android:name=".Number_Proportionality_Compound"
+            android:label="Compound"
+            android:parentActivityName=".Number_Proportional">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Proportional" />
+        </activity>
+        <activity android:name=".Number_Proportionality_Percentages"
+            android:label="Percentages"
+            android:parentActivityName=".Number_Proportional">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Proportional" />
+        </activity>
+        <activity android:name=".Number_Proportionality_Direct"
+            android:label="Direct"
+            android:parentActivityName=".Number_Proportional">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Proportional" />
+        </activity>
+        <activity android:name=".Number_RealNumbers_Real"
+            android:label="Real"
+            android:parentActivityName=".Number_The_Real">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_The_Real" />
+        </activity>
+        <activity android:name=".Number_RealNumbers_Irrational"
+            android:label="Irrational"
+            android:parentActivityName=".Number_The_Real">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_The_Real" />
+        </activity>
+        <activity android:name=".Number_RealNumbers_Rational"
+            android:label="Rational"
+            android:parentActivityName=".Number_The_Real">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_The_Real" />
+        </activity>
+        <activity android:name=".Number_Natural_Subtraction"
+            android:label="Subtraction"
+            android:parentActivityName=".Number_Natural">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Natural" />
+        </activity>
+        <activity android:name=".Number_Natural_Sum"
+            android:label="Sum"
+            android:parentActivityName=".Number_Natural">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Natural" />
+        </activity>
+        <activity android:name=".Number_Natural_Set"
+            android:label="Natural Set"
+            android:parentActivityName=".Number_Natural">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Natural" />
+        </activity>
+        <activity android:name=".Number_Integer_Combined"
+            android:label="Combined"
+            android:parentActivityName=".Number_Integer">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Integer" />
+        </activity>
+        <activity android:name=".Number_Integer_Operatins"
+            android:label="Operations"
+            android:parentActivityName=".Number_Integer">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Integer" />
+        </activity>
+        <activity android:name=".Number_Integer_Set"
+            android:label="Integer Set"
+            android:parentActivityName=".Number_Integer">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Integer" />
+        </activity>
+        <activity android:name=".Number_Real_Operation"
+            android:label="Operation"
+            android:parentActivityName=".Number_Decimal">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Decimal" />
+        </activity>
+        <activity android:name=".Number_Real_Order"
+            android:label="Order"
+            android:parentActivityName=".Number_Decimal">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Decimal" />
+        </activity>
+        <activity android:name=".Number_Real_FromDecimal"
+            android:label="Decimal"
+            android:parentActivityName=".Number_Decimal">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Decimal" />
+        </activity>
+        <activity android:name=".Number_Real_Types"
+            android:label="Types"
+            android:parentActivityName=".Number_Decimal">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value="Number_Decimal" />
+        </activity>
+        <activity android:name=".Number_Real_Rounding"
+            android:label="Rounding"
+            android:parentActivityName=".Number_Decimal">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Decimal" />
+        </activity>
+        <activity android:name=".Number_Real_Definition"
+            android:label="Definition"
+            android:parentActivityName=".Number_Decimal">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_Decimal" />
+        </activity>
+        <activity android:name=".Number_Diophantine_Quadratic"
+            android:label="Quadratic"
+            android:parentActivityName=".Number_diophantine">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_diophantine" />
+        </activity>
+        <activity android:name=".Number_Diophantine_Linier"
+            android:label="Linier"
+            android:parentActivityName=".Number_diophantine">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_diophantine" />
+        </activity>
+        <activity android:name=".Number_Diophantine_Euclides"
+            android:label="Euclidians"
+            android:parentActivityName=".Number_diophantine">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_diophantine" />
+        </activity>
+        <activity android:name=".Number_Divisibility_Greatest"
+            android:label="Greatest"
+            android:parentActivityName=".Number_diophantine">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_diophantine" />
+        </activity>
+        <activity android:name=".Number_Divisibility_Factorization"
+            android:label="Factorization"
+            android:parentActivityName=".Number_divisibility">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_divisibility" />
+        </activity>
+        <activity android:name=".Number_Divisibility_Divisibility"
+            android:label="Divisibility"
+            android:parentActivityName=".Number_divisibility">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_divisibility" />
+        </activity>
+        <activity android:name=".Number_Divisibility_Prime"
+            android:label="Prime"
+            android:parentActivityName=".Number_divisibility">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_divisibility" />
+        </activity>
+        <activity android:name=".Number_Divisibility_Divisors"
+            android:label="Divisors"
+            android:parentActivityName=".Number_divisibility">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number_divisibility" />
+        </activity>
+        <activity
+            android:name=".Algebra_Equations"
+            android:label="Equations"
+            android:parentActivityName=".Algebra">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Algebra" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combitorics_Variations_With"
+            android:label="Variations"
+            android:parentActivityName=".Discrete_Combitorics_Variations">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Discrete_Combitorics_Variations" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combitorics_Variations_Without"
+            android:label="Variations"
+            android:parentActivityName=".Discrete_Combitorics_Variations">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Discrete_Combitorics_Variations" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combitorics_Combinations"
+            android:label="Combinations"
+            android:parentActivityName=".Discrete_Combitorics_Combinations">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Discrete_Combitorics_Combinations" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combitorics_Permutations"
+            android:label="Permutations"
+            android:parentActivityName=".Discrete_Combitorics_Permutations">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Discrete_Combitorics_Permutations" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combitorics_Variations"
+            android:label="Variations"
+            android:parentActivityName=".Discrete_Combitorics_Variations">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Discrete_Combitorics_Variations" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combitorics_Principle"
+            android:label="Principle"
+            android:parentActivityName=".discrete_combinatorics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".discrete_combinatorics" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combitorics_Factorial"
+            android:label="Factorial"
+            android:parentActivityName=".discrete_combinatorics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".discrete_combinatorics" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combinatorial_Equations"
+            android:label="Equations"
+            android:parentActivityName=".discrete_combinatorics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".discrete_combinatorics" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combinatorial_Newtons"
+            android:label="Newtons"
+            android:parentActivityName=".discrete_combinatorics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".discrete_combinatorics" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combinatorial_Stifel"
+            android:label="Stifel"
+            android:parentActivityName=".discrete_combinatorics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".discrete_combinatorics" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combinatorial_Identity"
+            android:label="Identity"
+            android:parentActivityName=".discrete_combinatorics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".discrete_combinatorics" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combinatorial_Combinatorial"
+            android:label="Combinatorial"
+            android:parentActivityName=".discrete_combinatorics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".discrete_combinatorics" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combinatorial_Simplification"
+            android:label="Simplification"
+            android:parentActivityName=".discrete_combinatorics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".discrete_combinatorics" />
+        </activity>
+        <activity
+            android:name=".Discrete_Combinatorial_Factorial"
+            android:label="Factorial"
+            android:parentActivityName=".discrete_combinatorics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".discrete_combinatorics" />
+        </activity>
+        <activity
+            android:name=".Foundations_Set_Introduction"
+            android:label="Introduction"
+            android:parentActivityName=".Foundations_theory">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Foundations_theory" />
+        </activity>
+        <activity
+            android:name=".Foundations_Set_Number"
+            android:label="Number"
+            android:parentActivityName=".Foundations_theory">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Foundations_theory" />
+        </activity>
+        <activity
+            android:name=".Foundations_Set_Cardinality"
+            android:label="Cardinality"
+            android:parentActivityName=".Foundations_theory">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Foundations_theory" />
+        </activity>
+        <activity
+            android:name=".Foundations_Set_Product"
+            android:label="Product"
+            android:parentActivityName=".Foundations_theory">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Foundations_theory" />
+        </activity>
+        <activity
+            android:name=".Foundations_Set_Property"
+            android:label="Property"
+            android:parentActivityName=".Foundations_theory">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Foundations_theory" />
+        </activity>
+        <activity
+            android:name=".Foundations_Set_Complement"
+            android:label="Complement"
+            android:parentActivityName=".Foundations_theory">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Foundations_theory" />
+        </activity>
+        <activity
+            android:name=".Foundations_Set_Differences"
+            android:label="Differences"
+            android:parentActivityName=".Foundations_theory">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Foundations_theory" />
+        </activity>
+        <activity
+            android:name=".Foundations_Set_Union"
+            android:label="Union"
+            android:parentActivityName=".Foundations_theory">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Foundations_theory" />
+        </activity>
+        <activity
+            android:name=".Foundations_Set_Equality"
+            android:label="Equality"
+            android:parentActivityName=".Foundations_theory">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Foundations_theory" />
+        </activity>
+        <activity
+            android:name=".Foundations_Set_Definition"
+            android:label="Definition"
+            android:parentActivityName=".Foundations_theory">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Foundations_theory" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Conditional"
+            android:label="Conditional"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Axiomatic"
+            android:label="Axiomatic"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Bayes"
+            android:label="Bayes"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Law"
+            android:label="Probability Law"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Tree"
+            android:label="Tree"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Contingency"
+            android:label="Contingency"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Probability"
+            android:label="Probability"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Dependent"
+            android:label="Dependent"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Compatible"
+            android:label="Compatible"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Laplaces"
+            android:label="Laplaces"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Operations"
+            android:label="Operations"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability_Definition"
+            android:label="Definition"
+            android:parentActivityName=".Probability_Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Graph_Histogram"
+            android:label="Graph Histogram"
+            android:parentActivityName=".Probability_Statistics_Graph">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics_Graph" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Graph_Diagram"
+            android:label="Diagram"
+            android:parentActivityName=".Probability_Statistics_Graph">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics_Graph" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Graph_Bars"
+            android:label="Graph Bars"
+            android:parentActivityName=".Probability_Statistics_Graph">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics_Graph" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Variance"
+            android:label="Variance"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_AbsoluteDeviation"
+            android:label="Deviation"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Range"
+            android:label="Range"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Median"
+            android:label="Median"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Mode"
+            android:label="Mode"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Mathematical"
+            android:label="Mathematical"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Geometri"
+            android:label="Geometri"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Arithmatical"
+            android:label="Arithmatical"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Graph"
+            android:label="Graph"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Absolute"
+            android:label="Absolute"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_StatisticVariable"
+            android:label="Variable"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics_Statistic"
+            android:label="Statistic"
+            android:parentActivityName=".Probability_Statistics">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Statistics" />
+        </activity>
+        <activity
+            android:name=".Probability_Distributions_Normal"
+            android:label="Normal"
+            android:parentActivityName=".Probability_Distributions">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Distributions" />
+        </activity>
+        <activity
+            android:name=".Probability_Distributions_Binomial"
+            android:label="Binomial"
+            android:parentActivityName=".Probability_Distributions">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Distributions" />
+        </activity>
+        <activity
+            android:name=".Probability_Distributions_Average"
+            android:label="Average"
+            android:parentActivityName=".Probability_Distributions">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Distributions" />
+        </activity>
+        <activity
+            android:name=".Probability_Distributions_Distribution"
+            android:label="Distribution"
+            android:parentActivityName=".Probability_Distributions">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Distributions" />
+        </activity>
+        <activity
+            android:name=".Probability_Distributions_Independent"
+            android:label="Independent"
+            android:parentActivityName=".Probability_Distributions">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Distributions" />
+        </activity>
+        <activity
+            android:name=".Probability_Distributions_Probability"
+            android:label="Probability"
+            android:parentActivityName=".Probability_Distributions">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Distributions" />
+        </activity>
+        <activity
+            android:name=".Probability_Distributions_Random"
+            android:label="Random"
+            android:parentActivityName=".Probability_Distributions">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability_Distributions" />
+        </activity>
+        <activity
+            android:name=".Applied_Finance_Compound"
+            android:label="Compound"
+            android:parentActivityName=".Applied_Finance">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Applied_Finance" />
+        </activity>
+        <activity
+            android:name=".Applied_Finance_Simple"
+            android:label="Simple"
+            android:parentActivityName=".Applied_Finance">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Applied_Finance" />
+        </activity>
+        <activity
+            android:name=".Applied_Interpolation_Polynomial_Lagrange"
+            android:label="Lagrange"
+            android:parentActivityName=".Applied_Interpolation_Polynomial">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Applied_Interpolation_Polynomial" />
+        </activity>
+        <activity
+            android:name=".Applied_Interpolation_Polynomial_Newtons"
+            android:label="Newtons"
+            android:parentActivityName=".Applied_Interpolation_Polynomial">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Applied_Interpolation_Polynomial" />
+        </activity>
+        <activity
+            android:name=".Applied_Interpolation_Polynomial_Polynomial"
+            android:label="Polynomial"
+            android:parentActivityName=".Applied_Interpolation_Polynomial">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Applied_Interpolation_Polynomial" />
+        </activity>
+        <activity
+            android:name=".Applied_Interpolation_Polynomial"
+            android:label="Polynomial"
+            android:parentActivityName=".Applied_Interpolation">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Applied_Interpolation" />
+        </activity>
+        <activity
+            android:name=".Applied_Interpolation_Taylors"
+            android:label="Taylors"
+            android:parentActivityName=".Applied_Interpolation">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Applied_Interpolation" />
+        </activity>
+        <activity
+            android:name=".Applied_Interpolation_Interpolation"
+            android:label="Interpolation"
+            android:parentActivityName=".Applied_Interpolation">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Applied_Interpolation" />
+        </activity>
+        <activity
+            android:name=".Applied_Interpolation_Inverse"
+            android:label="Inverse"
+            android:parentActivityName=".Applied_Interpolation">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Applied_Interpolation" />
+        </activity>
+        <activity
+            android:name=".Calculus_Sequences_Operations"
+            android:label="Operations"
+            android:parentActivityName=".Calculus_Sequences">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Sequences" />
+        </activity>
+        <activity
+            android:name=".Calculus_Sequences_Limit"
+            android:label="Limit"
+            android:parentActivityName=".Calculus_Sequences">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Sequences" />
+        </activity>
+        <activity
+            android:name=".Calculus_Sequences_Bounded"
+            android:label="Bounded"
+            android:parentActivityName=".Calculus_Sequences">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Sequences" />
+        </activity>
+        <activity
+            android:name=".Calculus_Sequences_Monotonous"
+            android:label="Monotonous"
+            android:parentActivityName=".Calculus_Sequences">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Sequences" />
+        </activity>
+        <activity
+            android:name=".Calculus_Sequences_Definition"
+            android:label="Definition"
+            android:parentActivityName=".Calculus_Sequences">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Sequences" />
+        </activity>
+        <activity
+            android:name=".Calculus_Square_Elements"
+            android:label="Elements"
+            android:parentActivityName=".Calculus_Square">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Square" />
+        </activity>
+        <activity
+            android:name=".Calculus_Square_Product"
+            android:label="Product"
+            android:parentActivityName=".Calculus_Square">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Square" />
+        </activity>
+        <activity
+            android:name=".Calculus_Square_Definition"
+            android:label="Definition"
+            android:parentActivityName=".Calculus_Square">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Square" />
+        </activity>
+        <activity
+            android:name=".Calculus_Progressions_Geometric_Infinite"
+            android:label="Infinite"
+            android:parentActivityName=".Calculus_Progressions_Geometric">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Progressions_Geometric" />
+        </activity>
+        <activity
+            android:name=".Calculus_Progressions_Geometric_Sum"
+            android:label="Geometric Sum"
+            android:parentActivityName=".Calculus_Progressions_Geometric">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Progressions_Geometric" />
+        </activity>
+        <activity
+            android:name=".Calculus_Progressions_Geometric_Product"
+            android:label="Product"
+            android:parentActivityName=".Calculus_Progressions_Geometric">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Progressions_Geometric" />
+        </activity>
+        <activity
+            android:name=".Calculus_Progressions_Geometric_General"
+            android:label="General"
+            android:parentActivityName=".Calculus_Progressions_Geometric">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Progressions_Geometric" />
+        </activity>
+        <activity
+            android:name=".Calculus_Progressions_Geometric_Geometric"
+            android:label="Geometric"
+            android:parentActivityName=".Calculus_Progressions_Geometric">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Progressions_Geometric" />
+        </activity>
+        <activity
+            android:name=".Calculus_Progressions_Arithmetical_Sum"
+            android:label="Arithmetical Sum"
+            android:parentActivityName=".Calculus_Progressions_Arithmetical">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Progressions_Arithmetical" />
+        </activity>
+        <activity
+            android:name=".Calculus_Progressions_Arithmetical_General"
+            android:label="General"
+            android:parentActivityName=".Calculus_Progressions_Arithmetical">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Progressions_Arithmetical" />
+        </activity>
+        <activity
+            android:name=".Calculus_Progressions_Arithmetical_Arithmetical"
+            android:label="Arithmetical"
+            android:parentActivityName=".Calculus_Progressions_Arithmetical">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Progressions_Arithmetical" />
+        </activity>
+        <activity
+            android:name=".Calculus_Progressions_Geometric"
+            android:label="Geometric"
+            android:parentActivityName=".Calculus_Progressions">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Progressions" />
+        </activity>
+        <activity
+            android:name=".Calculus_Progressions_Arithmetical"
+            android:label="Arithmetical"
+            android:parentActivityName=".Calculus_Progressions">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus_Progressions" />
+        </activity>
+        <activity
+            android:name=".Calculus_Radicals_Factorization"
+            android:label="Factorization"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Radicals_Rationlization"
+            android:label="Rationlization"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Radicals_Radicals"
+            android:label="Radicals"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Radicals_Amplification"
+            android:label="Amplification"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Powers_Radicals"
+            android:label="Radicals"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Powers_Powers3"
+            android:label="Powers"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Powers_Operations"
+            android:label="Operations"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Powers_Powers2"
+            android:label="Powers"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Powers_Powers"
+            android:label="Powers"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex_nth"
+            android:label="Complex nth"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex_Exponentiation2"
+            android:label="Exponentiation"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex_Exponentiation"
+            android:label="Exponentiation"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex_Complex3"
+            android:label="Complex"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex_Representation2"
+            android:label="Representation"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex_Operations2"
+            android:label="Operations"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex_Complex2"
+            android:label="Complex"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex_Complex"
+            android:label="Complex"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex_Representation"
+            android:label="Representation"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex_Operations"
+            android:label="Operations"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex_Definition"
+            android:label="Definition"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Measurements_Saxon"
+            android:label="Saxon"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Measurements_Traditional"
+            android:label="Traditional"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Measurements_Complex"
+            android:label="Complex"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Measurements_Decimal"
+            android:label="Decimal"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Logarithms_Logarithms"
+            android:label="Logarithms"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Logarithms_Using"
+            android:label="Using"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Logarithms_Base"
+            android:label="Base"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Logarithms_Properties"
+            android:label="Properties"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Sequences"
+            android:label="Sequences"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Square"
+            android:label="Square"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Progressions"
+            android:label="Progressions"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Powers"
+            android:label="Powers"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Complex"
+            android:label="Complex"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Measurements"
+            android:label="Measurements"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Logarithms"
+            android:label="Logarithms"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Inequations"
+            android:label="Inequations"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Graphic"
+            android:label="Graphic"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Absolute"
+            android:label="Absolute"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Functions2"
+            android:label="Functions"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Logarithmic"
+            android:label="Logarithmic"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Exponential"
+            android:label="Exponential"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Irrational"
+            android:label="Irrational"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Rational"
+            android:label="Rational"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Polynomial"
+            android:label="Polynomial"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Operations"
+            android:label="Operations"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Characteristics"
+            android:label="Characteristics"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Graphic"
+            android:label="Graphic"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Graph"
+            android:label="Graph"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Image"
+            android:label="Image"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Domain"
+            android:label="Domain"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Computation"
+            android:label="Computation"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Concept2"
+            android:label="Concept"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Constant"
+            android:label="Constant"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_FUnctions"
+            android:label="Functions"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Concept"
+            android:label="Concept"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions_Cartesian"
+            android:label="Cartesian"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Logarithmic_Systems"
+            android:label="Systems"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Logarithmic_Logarithmic2"
+            android:label="Logarithmic"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Logarithmic_Logarithmic"
+            android:label="Logarithmic"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Exponential_Solving4"
+            android:label="Solving"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Exponential_Solving3"
+            android:label="Solving"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Exponential_Solving2"
+            android:label="Solving"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Exponential_Solving"
+            android:label="Solving"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Exponential_Introduction"
+            android:label="Introduction"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Number_Sexagesimal"
+            android:label="Sexagesimal"
+            android:parentActivityName=".Number">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number" />
+        </activity>
+        <activity
+            android:name=".Number_Proportional"
+            android:label="Proportional"
+            android:parentActivityName=".Number">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number" />
+        </activity>
+        <activity
+            android:name=".Number_The_Real"
+            android:label="The Real Numbers"
+            android:parentActivityName=".Number">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number" />
+        </activity>
+        <activity
+            android:name=".Number_Natural"
+            android:label="Natural"
+            android:parentActivityName=".Number">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number" />
+        </activity>
+        <activity
+            android:name=".Number_Integer"
+            android:label="Integer"
+            android:parentActivityName=".Number">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number" />
+        </activity>
+        <activity
+            android:name=".Number_Decimal"
+            android:label="Decimal"
+            android:parentActivityName=".Number">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number" />
+        </activity>
+        <activity
+            android:name=".Number_diophantine"
+            android:label="Diophantine"
+            android:parentActivityName=".Number">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number" />
+        </activity>
+        <activity
+            android:name=".Number_divisibility"
+            android:label="Divisibility"
+            android:parentActivityName=".Number">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Number" />
+        </activity>
+        <activity
+            android:name=".Number"
+            android:label="Number"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".discrete_combinatorics"
+            android:label="combinatorics"
+            android:parentActivityName=".Discrete">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Discrete" />
+        </activity>
+        <activity
+            android:name=".discrete_combinatorial_number"
+            android:label="Number"
+            android:parentActivityName=".Discrete">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Discrete" />
+        </activity>
+        <activity
+            android:name=".Discrete"
+            android:label="Discrete"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Foundations_theory"
+            android:label="Theory"
+            android:parentActivityName=".Foundations">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Foundations" />
+        </activity>
+        <activity
+            android:name=".Foundations"
+            android:label="Foundations"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Recreational_Encrypted"
+            android:label="Encrypted"
+            android:parentActivityName=".Recreational">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Recreational" />
+        </activity>
+        <activity
+            android:name=".Recreational"
+            android:label="Recreational"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Probability_Probability"
+            android:label="Probability"
+            android:parentActivityName=".Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Statistics"
+            android:label="Statistics"
+            android:parentActivityName=".Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability" />
+        </activity>
+        <activity
+            android:name=".Probability_Distributions"
+            android:label="Distributions"
+            android:parentActivityName=".Probability">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Probability" />
+        </activity>
+        <activity
+            android:name=".Probability"
+            android:label="Probability"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Geometry_Volumes"
+            android:label="Volumes"
+            android:parentActivityName=".Geometry">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Geometry" />
+        </activity>
+        <activity
+            android:name=".Geometry_Space"
+            android:label="Space"
+            android:parentActivityName=".Geometry">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Geometry" />
+        </activity>
+        <activity
+            android:name=".Geometry_Movements"
+            android:label="Movements"
+            android:parentActivityName=".Geometry">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Geometry" />
+        </activity>
+        <activity
+            android:name=".Geometry_Conics"
+            android:label="Conics"
+            android:parentActivityName=".Geometry">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Geometry" />
+        </activity>
+        <activity
+            android:name=".Geometry_Circum"
+            android:label="Circum"
+            android:parentActivityName=".Geometry">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Geometry" />
+        </activity>
+        <activity
+            android:name=".Geometry_Areas"
+            android:label="Areas"
+            android:parentActivityName=".Geometry">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Geometry" />
+        </activity>
+        <activity
+            android:name=".Geometry_Angles"
+            android:label="Angles"
+            android:parentActivityName=".Geometry">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Geometry" />
+        </activity>
+        <activity
+            android:name=".Geometry_Analytic"
+            android:label="Analytic"
+            android:parentActivityName=".Geometry">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Geometry" />
+        </activity>
+        <activity
+            android:name=".Geometry_Affine"
+            android:label="Affine"
+            android:parentActivityName=".Geometry">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Geometry" />
+        </activity>
+        <activity
+            android:name=".Geometry"
+            android:label="Geometry"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Calculus_Vector"
+            android:label="Vector"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Logarithmic"
+            android:label="Logarithmic"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Limits"
+            android:label="Limits"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Integration"
+            android:label="Integration"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Functions"
+            android:label="Functions"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Exponential"
+            android:label="Exponential"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Differential"
+            android:label="Differential"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Derivatives"
+            android:label="Derivatives"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus_Continuity"
+            android:label="Continuity"
+            android:parentActivityName=".Calculus">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Calculus" />
+        </activity>
+        <activity
+            android:name=".Calculus"
+            android:label="Calculus"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Applied_Interpolation"
+            android:label="Interpolation"
+            android:parentActivityName=".Applied">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Applied" />
+        </activity>
+        <activity
+            android:name=".Applied_Finance"
+            android:label="Finance"
+            android:parentActivityName=".Applied">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Applied" />
+        </activity>
+        <activity
+            android:name=".Applied"
+            android:label="Applied"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Algebra_Vector"
+            android:label="Vector"
+            android:parentActivityName=".Algebra">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Algebra" />
+        </activity>
+        <activity
+            android:name=".Algebra_Polynomials"
+            android:label="Polynomials"
+            android:parentActivityName=".Algebra">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Algebra" />
+        </activity>
+        <activity
+            android:name=".Algebra_Matrices"
+            android:label="Matrices"
+            android:parentActivityName=".Algebra">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Algebra" />
+        </activity>
+        <activity
+            android:name=".Algebra_Linear"
+            android:label="Linier"
+            android:parentActivityName=".Algebra">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Algebra" />
+        </activity>
+        <activity
+            android:name=".Algebra_Fractions"
+            android:label="Franctions"
+            android:parentActivityName=".Algebra">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Algebra" />
+        </activity>
+        <activity
+            android:name=".Algebra_equations"
+            android:label="Equations"
+            android:parentActivityName=".Algebra">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Algebra" />
+        </activity>
+        <activity
+            android:name=".Algebra_Determinants"
+            android:label="Determinants"
+            android:parentActivityName=".Algebra">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".Algebra" />
+        </activity>
+        <activity
+            android:name=".Algebra"
+            android:label="Algebra"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="andoid.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Viewed"
+            android:label="Viewed" />
+        <activity
+            android:name=".Favorites"
+            android:label="Favorites" />
+        <activity
+            android:name=".Settings"
+            android:label="Settings" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

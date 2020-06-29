@@ -41,34 +41,44 @@ public class Foundations_theory extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Foundations_theory.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Foundations_Set_Definition.class));
                 }
                 if (position==1){
-                    Toast.makeText(Foundations_theory.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Foundations_Set_Equality.class));
                 }
                 if (position==2){
-                    Toast.makeText(Foundations_theory.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Foundations_Set_Union.class));
                 }
                 if (position==3){
-                    Toast.makeText(Foundations_theory.this, "judul4", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Foundations_Set_Differences.class));
                 }
                 if (position==4){
-                    Toast.makeText(Foundations_theory.this, "judul5", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Foundations_Set_Complement.class));
                 }
                 if (position==5){
-                    Toast.makeText(Foundations_theory.this, "judul6", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Foundations_Set_Property.class));
                 }
                 if (position==6){
-                    Toast.makeText(Foundations_theory.this, "judul7", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Foundations_Set_Product.class));
                 }
                 if (position==7){
-                    Toast.makeText(Foundations_theory.this, "judul8", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Foundations_Set_Cardinality.class));
                 }
                 if (position==8){
-                    Toast.makeText(Foundations_theory.this, "judul9", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Foundations_Set_Number.class));
                 }
                 if (position==9){
-                    Toast.makeText(Foundations_theory.this, "judul10", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Foundations_Set_Introduction.class));
                 }
             }
         });

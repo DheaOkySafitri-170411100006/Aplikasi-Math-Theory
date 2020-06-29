@@ -41,25 +41,32 @@ public class Probability_Distributions extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Probability_Distributions.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Distributions_Random.class));
                 }
                 if (position==1){
-                    Toast.makeText(Probability_Distributions.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Distributions_Probability.class));
                 }
                 if (position==2){
-                    Toast.makeText(Probability_Distributions.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Distributions_Independent.class));
                 }
                 if (position==3){
-                    Toast.makeText(Probability_Distributions.this, "judul4", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Distributions_Distribution.class));
                 }
                 if (position==4){
-                    Toast.makeText(Probability_Distributions.this, "judul5", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Distributions_Average.class));
                 }
                 if (position==5){
-                    Toast.makeText(Probability_Distributions.this, "judul6", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Distributions_Binomial.class));
                 }
                 if (position==6){
-                    Toast.makeText(Probability_Distributions.this, "judul7", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Probability_Distributions_Normal.class));
                 }
             }
         });
@@ -122,4 +129,3 @@ public class Probability_Distributions extends AppCompatActivity {
         }
     }
 }
-

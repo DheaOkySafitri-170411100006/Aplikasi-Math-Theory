@@ -1,5 +1,9 @@
 package projectppb.com;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,29 +15,26 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class Algebra_Equations extends AppCompatActivity {
+public class Probability_Statistics_Graph extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
     TextView textViewpenjelasan;
-    String mTittle[]={"First degree equations","Quadratic equations", "Systems of equations","Trigonometric equations"};
-    String mDescription []={"4 topics","5 topics","9 topics","8 topics"};
+    String mTittle[]={"Bars Diagram", "Diagram of sectors", "Hostogram"};
+    String mDescription []={"1 topics", "1 topics", "1 topics"};
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_algebra_equations);
+        setContentView(R.layout.activity_probability__statistics__graph);
 
         listView =findViewById(R.id.listView);
 
-        Algebra_Equations.MyAdapter adapter = new MyAdapter(this, mTittle, mDescription);
+        Probability_Statistics_Graph.MyAdapter adapter = new MyAdapter(this, mTittle, mDescription);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -41,19 +42,15 @@ public class Algebra_Equations extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
                     startActivity(new Intent(getApplicationContext()
-                            , Algebra_Equations_First.class));
+                            ,Probability_Statistics_Graph_Bars.class));
                 }
                 if (position==1){
                     startActivity(new Intent(getApplicationContext()
-                            , Algebra_Equations_Quadratic.class));
+                            ,Probability_Statistics_Graph_Diagram.class));
                 }
                 if (position==2){
                     startActivity(new Intent(getApplicationContext()
-                            , Algebra_Equations_Systems.class));
-                }
-                if (position==3){
-                    startActivity(new Intent(getApplicationContext()
-                            , Algebra_Equations_Trigonometric.class));
+                            ,Probability_Statistics_Graph_Histogram.class));
                 }
             }
         });
@@ -68,19 +65,19 @@ public class Algebra_Equations extends AppCompatActivity {
                 switch (menuItem.getItemId()){
                     case R.id.settings:
                         startActivity(new Intent(getApplicationContext()
-                                , Settings.class));
+                                ,Settings.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.home:
                         return true;
                     case R.id.favorites:
                         startActivity(new Intent(getApplicationContext()
-                                , Favorites.class));
+                                ,Favorites.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.viewed:
                         startActivity(new Intent(getApplicationContext()
-                                , Viewed.class));
+                                ,Viewed.class));
                         overridePendingTransition(0,0);
                         return true;
 

@@ -41,13 +41,16 @@ public class Number_Natural extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Number_Natural.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Natural_Set.class));
                 }
                 if (position==1){
-                    Toast.makeText(Number_Natural.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Natural_Sum.class));
                 }
                 if (position==2){
-                    Toast.makeText(Number_Natural.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Natural_Subtraction.class));
                 }
             }
         });

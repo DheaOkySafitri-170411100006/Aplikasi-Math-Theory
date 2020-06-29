@@ -41,13 +41,16 @@ public class Number_Integer extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Number_Integer.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Integer_Set.class));
                 }
                 if (position==1){
-                    Toast.makeText(Number_Integer.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Integer_Operatins.class));
                 }
                 if (position==2){
-                    Toast.makeText(Number_Integer.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Integer_Combined.class));
                 }
             }
         });

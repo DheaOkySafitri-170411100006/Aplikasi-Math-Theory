@@ -41,25 +41,32 @@ public class discrete_combinatorial_number extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(discrete_combinatorial_number.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combinatorial_Factorial.class));
                 }
                 if (position==1){
-                    Toast.makeText(discrete_combinatorial_number.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combinatorial_Simplification.class));
                 }
                 if (position==2){
-                    Toast.makeText(discrete_combinatorial_number.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combinatorial_Combinatorial.class));
                 }
                 if (position==3){
-                    Toast.makeText(discrete_combinatorial_number.this, "judul4", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combinatorial_Identity.class));
                 }
                 if (position==4){
-                    Toast.makeText(discrete_combinatorial_number.this, "judul5", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combinatorial_Stifel.class));
                 }
                 if (position==5){
-                    Toast.makeText(discrete_combinatorial_number.this, "judul6", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combinatorial_Newtons.class));
                 }
                 if (position==6){
-                    Toast.makeText(discrete_combinatorial_number.this, "judul7", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combinatorial_Equations.class));
                 }
             }
         });

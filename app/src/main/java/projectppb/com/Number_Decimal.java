@@ -24,7 +24,7 @@ public class Number_Decimal extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Definition of decimal", "Rounding and truncating", "Types of decimal", "From decimal number to fractions", "The order of decimal", "Operation wuth decimal"};
-    String mDescription []={"1 topics","1 topics","1 topics","1 topics", "1 topics", "3 topics"};
+    String mDescription []={"1 topics","1 topics","1 topics","1 topics", "1 topics", "1 topics"};
 
 
     @Override
@@ -41,22 +41,28 @@ public class Number_Decimal extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Number_Decimal.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Real_Definition.class));
                 }
                 if (position==1){
-                    Toast.makeText(Number_Decimal.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Real_Rounding.class));
                 }
                 if (position==2){
-                    Toast.makeText(Number_Decimal.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Real_Types.class));
                 }
                 if (position==3){
-                    Toast.makeText(Number_Decimal.this, "judul4", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Real_FromDecimal.class));
                 }
                 if (position==4){
-                    Toast.makeText(Number_Decimal.this, "judul5", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Real_Order.class));
                 }
                 if (position==5){
-                    Toast.makeText(Number_Decimal.this, "judul6", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_Real_Operation.class));
                 }
             }
         });

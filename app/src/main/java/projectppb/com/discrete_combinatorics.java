@@ -24,7 +24,7 @@ public class discrete_combinatorics extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Factorial and combinatorial", "The principle of addition", "Variations", "Permutations", "Combinations"};
-    String mDescription []={"1 topics", "1 topics", "2 topics", "2 topics", "2 topics"};
+    String mDescription []={"1 topics", "1 topics", "1 topics", "1 topics", "1 topics"};
 
 
     @Override
@@ -41,19 +41,24 @@ public class discrete_combinatorics extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(discrete_combinatorics.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combitorics_Factorial.class));
                 }
                 if (position==1){
-                    Toast.makeText(discrete_combinatorics.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combitorics_Principle.class));
                 }
                 if (position==2){
-                    Toast.makeText(discrete_combinatorics.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combitorics_Variations.class));
                 }
                 if (position==3){
-                    Toast.makeText(discrete_combinatorics.this, "judul4", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combitorics_Permutations.class));
                 }
                 if (position==4){
-                    Toast.makeText(discrete_combinatorics.this, "judul5", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            ,Discrete_Combitorics_Combinations.class));
                 }
             }
         });

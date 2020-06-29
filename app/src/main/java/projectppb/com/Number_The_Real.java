@@ -41,13 +41,16 @@ public class Number_The_Real extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Toast.makeText(Number_The_Real.this, "judul1", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_RealNumbers_Rational.class));
                 }
                 if (position==1){
-                    Toast.makeText(Number_The_Real.this, "judul2", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_RealNumbers_Irrational.class));
                 }
                 if (position==2){
-                    Toast.makeText(Number_The_Real.this, "judul3", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext()
+                            , Number_RealNumbers_Real.class));
                 }
             }
         });
