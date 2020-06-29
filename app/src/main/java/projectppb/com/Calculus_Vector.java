@@ -45,7 +45,7 @@ public class Calculus_Vector extends AppCompatActivity {
                 }
                 if (position==1){
                     startActivity(new Intent(getApplicationContext()
-                            , Calculus_Vector_Parametrization2.class));
+                            ,Calculus_Vector_Parametrization2.class));
                 }
                 if (position==2){
                     startActivity(new Intent(getApplicationContext()

@@ -73,7 +73,7 @@ public class Calculus extends AppCompatActivity {
                 }
                 if (position==8){
                     startActivity(new Intent(getApplicationContext()
-                            ,Calculus_Functions_Functions2.class));
+                            ,Calculus_Functions.class));
                 }
                 if (position==9){
                     startActivity(new Intent(getApplicationContext()

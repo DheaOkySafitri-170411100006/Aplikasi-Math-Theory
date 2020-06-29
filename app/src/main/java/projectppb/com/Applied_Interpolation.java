@@ -24,7 +24,7 @@ public class Applied_Interpolation extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Polynomial Interpolation","inverse interpolation","Interpolation hermite","Taylor's polynomial"};
-    String mDescription []={"1 topics","1 topics","1 topics","1 topics"};
+    String mDescription []={"3 topics","1 topics","1 topics","1 topics"};
 
 
     @Override

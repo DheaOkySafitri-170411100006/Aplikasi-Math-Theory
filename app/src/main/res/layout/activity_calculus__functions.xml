@@ -18,6 +18,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:text="Learn the concept of a function and work with all kinda of them: related, rational, piecewise... Study the general characteristics of the functions and operations between them."/>
+
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
