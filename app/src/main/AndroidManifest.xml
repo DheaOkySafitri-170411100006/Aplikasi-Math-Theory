@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="projectppb.com">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -9,7 +10,8 @@
         android:icon="@mipmap/icon_math_syllabus_foreground"
         android:label="Math Syllabus"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
         <activity android:name=".Number_Sexagesimal_System"
             android:label="Sexagesimal System"
             android:parentActivityName=".Number_Sexagesimal">
@@ -515,30 +517,6 @@
             <meta-data
                 android:name="andoid.support.PARENT_ACTIVITY"
                 android:value=".Probability_Probability" />
-        </activity>
-        <activity
-            android:name=".Probability_Statistics_Graph_Histogram"
-            android:label="Graph Histogram"
-            android:parentActivityName=".Probability_Statistics_Graph">
-            <meta-data
-                android:name="andoid.support.PARENT_ACTIVITY"
-                android:value=".Probability_Statistics_Graph" />
-        </activity>
-        <activity
-            android:name=".Probability_Statistics_Graph_Diagram"
-            android:label="Diagram"
-            android:parentActivityName=".Probability_Statistics_Graph">
-            <meta-data
-                android:name="andoid.support.PARENT_ACTIVITY"
-                android:value=".Probability_Statistics_Graph" />
-        </activity>
-        <activity
-            android:name=".Probability_Statistics_Graph_Bars"
-            android:label="Graph Bars"
-            android:parentActivityName=".Probability_Statistics_Graph">
-            <meta-data
-                android:name="andoid.support.PARENT_ACTIVITY"
-                android:value=".Probability_Statistics_Graph" />
         </activity>
         <activity
             android:name=".Probability_Statistics_Variance"
