@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,22 +19,22 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class Calculus_Powers extends AppCompatActivity {
+public class Calculus_Inequations_Systems extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
     TextView textViewpenjelasan;
-    String mTittle[]={"Powers","Negative bases","Operations powers","Powers exponent","Radicals"};
-    String mDescription []={"1 topics","1 topics","1 topics","1 topics","4 topics"};
+    String mTittle[]={"One variable","Two variable"};
+    String mDescription []={"1 topics","1 topics"};
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculus__powers);
+        setContentView(R.layout.activity_calculus__inequations__systems);
 
         listView =findViewById(R.id.listView);
 
-        Calculus_Powers.MyAdapter adapter = new MyAdapter(this, mTittle, mDescription);
+        Calculus_Inequations_Systems.MyAdapter adapter = new MyAdapter(this, mTittle, mDescription);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -41,24 +42,13 @@ public class Calculus_Powers extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
                     startActivity(new Intent(getApplicationContext()
-                            ,Calculus_Powers_Powers.class));
+                            , Calculus_Inequations_Systems_one.class));
                 }
                 if (position==1){
                     startActivity(new Intent(getApplicationContext()
-                            , Calculus_Powers_Powers2.class));
+                            ,Calculus_Inequations_Systems_two.class));
                 }
-                if (position==2){
-                    startActivity(new Intent(getApplicationContext()
-                            ,Calculus_Powers_Operations.class));
-                }
-                if (position==3){
-                    startActivity(new Intent(getApplicationContext()
-                            , Calculus_Powers_Powers3.class));
-                }
-                if (position==4){
-                    startActivity(new Intent(getApplicationContext()
-                            ,Calculus_Powers_Radicals.class));
-                }
+
             }
         });
         //inisialisasi

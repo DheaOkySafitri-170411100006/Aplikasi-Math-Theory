@@ -23,7 +23,7 @@ public class Calculus_Derivatives_Derivative3 extends AppCompatActivity {
     ListView listView;
     TextView textViewpenjelasan;
     String mTittle[]={"Constant function","Linear function","Derivative power","Sum 2 functions","Product 2 functions","Division 2 functions","Trigonometric functions","Detection functions","Derivative exponential","Derivative composition"};
-    String mDescription []={"1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","10 topics","1 topics","1 topics","1 topics"};
+    String mDescription []={"1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics"};
 
 
     @Override

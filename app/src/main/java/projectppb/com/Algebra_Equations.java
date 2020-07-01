@@ -22,8 +22,8 @@ public class Algebra_Equations extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
     TextView textViewpenjelasan;
-    String mTittle[]={"Notation","Calculations","Properties"};
-    String mDescription []={"1 topics","3 topics","1 topics"};
+    String mTittle[]={"First Degree","Quadratic equations","Systems equations","Trigonometric equations"};
+    String mDescription []={"4 topics","5 topics","9 topics","8 topics"};
 
 
     @Override

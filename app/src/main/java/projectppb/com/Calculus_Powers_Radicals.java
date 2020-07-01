@@ -41,19 +41,19 @@ public class Calculus_Powers_Radicals extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
                     startActivity(new Intent(getApplicationContext()
-                            ,Calculus_Powers_Powers.class));
+                            ,Calculus_Radicals_Amplification.class));
                 }
                 if (position==1){
                     startActivity(new Intent(getApplicationContext()
-                            , Calculus_Powers_Powers2.class));
+                            , Calculus_Radicals_Radicals.class));
                 }
                 if (position==2){
                     startActivity(new Intent(getApplicationContext()
-                            ,Calculus_Powers_Operations.class));
+                            ,Calculus_Radicals_Rationlization.class));
                 }
                 if (position==3){
                     startActivity(new Intent(getApplicationContext()
-                            ,Calculus_Powers_Radicals.class));
+                            ,Calculus_Radicals_Factorization.class));
                 }
             }
         });

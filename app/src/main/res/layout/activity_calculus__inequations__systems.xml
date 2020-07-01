@@ -17,8 +17,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:text="Learn how to calculte determinants of any order, about some of their most important properties and how to find adjugate matrix." />
-
+        android:text="Learn how to work with inequalities and inequations of different types: of first and second degree, with one variable or two and inequality systems."/>
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"

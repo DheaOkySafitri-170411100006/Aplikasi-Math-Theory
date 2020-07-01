@@ -29,7 +29,7 @@ public class Calculus_Derivatives_Derivative4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculus__derivatives__derivative3__derivative4);
+        setContentView(R.layout.activity_calculus__derivatives__derivative4);
 
         listView =findViewById(R.id.listView);
 

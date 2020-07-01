@@ -29,7 +29,7 @@ public class Algebra_Matrices_Matrix_Operations extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_algebra__matrices__matrix__operations__sum);
+        setContentView(R.layout.activity_algebra__matrices__matrix__operations);
 
         listView =findViewById(R.id.listView);
 
@@ -55,7 +55,7 @@ public class Algebra_Matrices_Matrix_Operations extends AppCompatActivity {
                     startActivity(new Intent(getApplicationContext()
                             , Algebra_Matrices_Matrix_Operations_Rank.class));
                 }
-                if (position==3){
+                if (position==4){
                     startActivity(new Intent(getApplicationContext()
                             , Algebra_Matrices_Matrix_Operations_Transposed.class));
                 }

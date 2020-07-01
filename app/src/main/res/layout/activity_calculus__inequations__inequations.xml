@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-
-
+    tools:context=".Calculus_Inequations_Inequations">
     <TextView
         android:id="@+id/textViewpenjelasan"
         android:layout_width="match_parent"
@@ -17,8 +14,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:text="Learn how to calculte determinants of any order, about some of their most important properties and how to find adjugate matrix." />
-
+        android:text="Learn how to solvedefinite integrals using Barrow's rule, integrals of piecewise functions and improper integrals."/>
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
@@ -34,4 +30,4 @@
         app:itemTextColor="@drawable/selector"
         app:menu="@menu/menu_navigation" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

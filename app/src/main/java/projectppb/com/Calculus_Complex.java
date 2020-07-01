@@ -22,8 +22,8 @@ public class Calculus_Complex extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ListView listView;
     TextView textViewpenjelasan;
-    String mTittle[]={"Definition","Operations binomic form","Representation in plane","Complex number","Operations polar form","Representation polar form","Product n quotient","Exponentiation imaginary","Moivre's formula","n-th roots"};
-    String mDescription []={"1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics"};
+    String mTittle[]={"Definition","Operations binomic form","Representation in plane","Complex polar","Complex binomic","Operations polar form","Representation polar form","Product n quotient","Exponentiation imaginary","Moivre's formula","n-th roots"};
+    String mDescription []={"1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics","1 topics"};
 
 
     @Override
