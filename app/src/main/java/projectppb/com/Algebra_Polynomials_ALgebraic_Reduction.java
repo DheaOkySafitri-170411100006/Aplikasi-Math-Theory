@@ -15,7 +15,7 @@ public class Algebra_Polynomials_ALgebraic_Reduction extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_algebra__polynomials__a_lgebraic__reduction);
         pdfView= (PDFView) findViewById(R.id.Algebra_Polynomials_ALgebraic_Reduction);
-        pdfView.fromAsset("Algebra_Polynomials_ALgebraic_Reduction.pdf")
+        pdfView.fromAsset("Algebra_Polynomials_ALgebraic_Reduction.docx.pdf")
                 .load();
         pdfView.zoomTo((float) 3.5);
         Toast.makeText(this, "Tunggu beberapa saat. \n Sedang memuat data. . .", Toast.LENGTH_SHORT).show();

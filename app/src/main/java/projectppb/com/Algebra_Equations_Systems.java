@@ -41,11 +41,11 @@ public class Algebra_Equations_Systems extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
                     startActivity(new Intent(getApplicationContext()
-                            , Algebra_Equations_Systems_Systems.class));
+                            , Algebra_Equations_Systems_Linear.class));
                 }
                 if (position==1){
                     startActivity(new Intent(getApplicationContext()
-                            , Algebra_Equations_Systems_Linear.class));
+                            , Algebra_Equations_Systems_Systems.class));
                 }
                 if (position==2){
                     startActivity(new Intent(getApplicationContext()

@@ -15,7 +15,7 @@ public class Algebra_Matrices_Matrix_Operations_Rank extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_algebra__matrices__matrix__operations__rank);
         pdfView= (PDFView) findViewById(R.id.Algebra_Matrices_Matrix_Operations_Rank);
-        pdfView.fromAsset("Algebra_Matrices_Matrix_Operations_Rank.pdf")
+        pdfView.fromAsset("Algebra_Matrices_Matrix_Operations_Rank.docx.pdf")
                 .load();
         pdfView.zoomTo((float) 3.5);
         Toast.makeText(this, "Tunggu beberapa saat. \n Sedang memuat data. . .", Toast.LENGTH_SHORT).show();

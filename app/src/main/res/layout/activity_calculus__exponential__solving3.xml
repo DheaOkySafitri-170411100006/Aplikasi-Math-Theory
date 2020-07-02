@@ -5,5 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Calculus_Exponential_Solving3">
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/Calculus_Exponential_Solving3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

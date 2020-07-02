@@ -15,7 +15,7 @@ public class Algebra_Equations_Systems_Mxn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_algebra__equations__systems__mxn);
         pdfView= (PDFView) findViewById(R.id.Algebra_Equations_Systems_Mxn);
-        pdfView.fromAsset("Algebra_Equations_Systems_Mxn.pdf")
+        pdfView.fromAsset("Algebra_Equations_Systems_Mxn.docx.pdf")
                 .load();
         pdfView.zoomTo((float) 3.5);
         Toast.makeText(this, "Tunggu beberapa saat. \n Sedang memuat data. . .", Toast.LENGTH_SHORT).show();

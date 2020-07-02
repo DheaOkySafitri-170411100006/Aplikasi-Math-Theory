@@ -15,7 +15,7 @@ public class Algebra_Vectors_Scalar_Applications extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_algebra__vectors__scalar__applications);
         pdfView= (PDFView) findViewById(R.id.Algebra_Vectors_Scalar_Applications);
-        pdfView.fromAsset("Algebra_Polynomials_Monomials.pdf")
+        pdfView.fromAsset("Algebra_Vectors_Scalar_Applications.pdf")
                 .load();
         pdfView.zoomTo((float) 3.5);
         Toast.makeText(this, "Tunggu beberapa saat. \n Sedang memuat data. . .", Toast.LENGTH_SHORT).show();

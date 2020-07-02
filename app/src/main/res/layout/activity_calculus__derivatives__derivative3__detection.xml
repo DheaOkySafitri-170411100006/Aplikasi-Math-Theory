@@ -5,5 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Calculus_Derivatives_Derivative3_Detection">
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/Calculus_Derivatives_Derivative3_Detection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

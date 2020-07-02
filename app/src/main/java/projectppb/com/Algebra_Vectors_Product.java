@@ -15,7 +15,7 @@ public class Algebra_Vectors_Product extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_algebra__vectors__product);
         pdfView= (PDFView) findViewById(R.id.Algebra_Vectors_Product);
-        pdfView.fromAsset("Algebra_Polynomials_Monomials.pdf")
+        pdfView.fromAsset("Algebra_Vectors_Product.pdf")
                 .load();
         pdfView.zoomTo((float) 3.5);
         Toast.makeText(this, "Tunggu beberapa saat. \n Sedang memuat data. . .", Toast.LENGTH_SHORT).show();

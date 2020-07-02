@@ -15,7 +15,7 @@ public class Algebra_Equations_Trigonometric_Ratios extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_algebra__equations__trigonometric__ratios);
         pdfView= (PDFView) findViewById(R.id.Algebra_Equations_Trigonometric_Ratios);
-        pdfView.fromAsset("Algebra_Equations_Trigonometric_Ratios.pdf")
+        pdfView.fromAsset("Algebra_Equations_Trigonometric_Ratios.docx.pdf")
                 .load();
         pdfView.zoomTo((float) 3.5);
         Toast.makeText(this, "Tunggu beberapa saat. \n Sedang memuat data. . .", Toast.LENGTH_SHORT).show();

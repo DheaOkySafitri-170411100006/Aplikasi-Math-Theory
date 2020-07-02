@@ -15,7 +15,7 @@ public class Algebra_Polynomials_ALgebraic_Simplification extends AppCompatActiv
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_algebra__polynomials__a_lgebraic__simplification);
         pdfView= (PDFView) findViewById(R.id.Algebra_Polynomials_ALgebraic_Simplification);
-        pdfView.fromAsset("Algebra_Polynomials_ALgebraic_Simplification.pdf")
+        pdfView.fromAsset("Algebra_Polynomials_ALgebraic_Simplification.docx.pdf")
                 .load();
         pdfView.zoomTo((float) 3.5);
         Toast.makeText(this, "Tunggu beberapa saat. \n Sedang memuat data. . .", Toast.LENGTH_SHORT).show();
