@@ -5,5 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Algebra_Linear_Maximization">
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/Algebra_Linear_Maximization"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

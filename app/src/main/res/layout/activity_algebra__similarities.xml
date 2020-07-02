@@ -5,5 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Algebra_Similarities">
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/Algebra_Similarities"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
