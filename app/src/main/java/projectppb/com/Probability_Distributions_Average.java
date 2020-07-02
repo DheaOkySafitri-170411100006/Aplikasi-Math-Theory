@@ -10,7 +10,6 @@ import com.github.barteksc.pdfviewer.PDFView;
 public class Probability_Distributions_Average extends AppCompatActivity {
     PDFView pdfView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1181,22 +1181,6 @@
                 android:value=".Number_divisibility" />
         </activity>
         <activity
-            android:name=".Discrete_Combitorics_Variations_With"
-            android:label="Variations"
-            android:parentActivityName=".Discrete_Combitorics_Variations">
-            <meta-data
-                android:name="andoid.support.PARENT_ACTIVITY"
-                android:value=".Discrete_Combitorics_Variations" />
-        </activity>
-        <activity
-            android:name=".Discrete_Combitorics_Variations_Without"
-            android:label="Variations"
-            android:parentActivityName=".Discrete_Combitorics_Variations">
-            <meta-data
-                android:name="andoid.support.PARENT_ACTIVITY"
-                android:value=".Discrete_Combitorics_Variations" />
-        </activity>
-        <activity
             android:name=".Discrete_Combitorics_Combinations"
             android:label="Combinations"
             android:parentActivityName=".Discrete_Combitorics_Combinations">
